@@ -1,6 +1,6 @@
 General info:
 - Brand name: Golden Bounty
-- The email where we have to send the key's information to: tech@golden-bounty.com
+- The email where we have to send the key's information to: goldenbountysupport@gmail.com
 - If available, provide staging website: https://golden-bounty.com
 - Callback endpoint URL for staging server: https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina
 - Callback endpoint URL for production server: https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina
