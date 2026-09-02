@@ -1,0 +1,53 @@
+name: Endorphina Acceptance Test
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Download & unpack test tool
+        run: |
+          curl -sL -o pkg.zip "https://media.base44.com/files/public/6a5698edffaa42a5b6637776/decd8986e_Endorphina_intro_documents.zip"
+          unzip -q pkg.zip "Endorphina_intro_documents/Seamless Tests/endorphina-acceptance-test-2.9/*" -d pkg
+          mkdir -p run
+          cp "pkg/Endorphina_intro_documents/Seamless Tests/endorphina-acceptance-test-2.9/"*.jar run/test.jar
+          cp "pkg/Endorphina_intro_documents/Seamless Tests/endorphina-acceptance-test-2.9/configuration.properties" run/
+      - name: Patch configuration
+        working-directory: run
+        run: |
+          sed -i 's#^tests.seamlessUrl=.*#tests.seamlessUrl=https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina#' configuration.properties
+          sed -i 's#^tests.timeout=.*#tests.timeout=20000#' configuration.properties
+          sed -i 's#^node.sendZeroWin=.*#node.sendZeroWin=true#' configuration.properties
+          sed -i 's#^node.sendEndSession=.*#node.sendEndSession=true#' configuration.properties
+          sed -i 's#^node.sendSessionInfo=.*#node.sendSessionInfo=true#' configuration.properties
+          grep -v secretKey configuration.properties
+      - name: Run acceptance test
+        working-directory: run
+        run: |
+          nohup java -jar test.jar > app.log 2>&1 &
+          for i in $(seq 1 60); do curl -s -o /dev/null http://localhost:8080/ && break; sleep 2; done
+          sleep 3
+          curl -sL -m 900 -o report.html -w "HTTP %{http_code}\n" "http://localhost:8080/api/sessions/seamless/rest/v1?exit=http://google.com&nodeId=8&token=d1fe901b577f459abc0b2298a1f9f1dd&sign=cadf144fb63950a9eb813ca44a5e1ac77a906e4e" || true
+          sleep 30
+          ls -laR . | head -60
+          tail -c 30000 app.log
+      - name: Save report to repo
+        run: |
+          mkdir -p tests/endorphina
+          find run -type f \( -name '*.html' -o -name '*.txt' -o -name '*.json' -o -name '*.xml' -o -name '*.log' \) -exec cp {} tests/endorphina/ \; || true
+          git config user.name gb-bot && git config user.email bot@golden-bounty.com
+          git add tests/endorphina && git commit -m "Endorphina acceptance test report" && git push || echo "nothing to commit"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: endorphina-report
+          path: |
+            run/
+            !run/test.jar
+          if-no-files-found: warn
