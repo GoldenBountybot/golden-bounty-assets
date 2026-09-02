@@ -1,0 +1,31 @@
+General info:
+- Brand name: Golden Bounty
+- The email where we have to send the key's information to: tech@golden-bounty.com
+- If available, provide staging website: https://golden-bounty.com
+- Callback endpoint URL for staging server: https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina
+- Callback endpoint URL for production server: https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina
+- Currencies you want to enable (Pick 3): USD, EUR, USDT
+
+Free trial games (edemo) for players:
+- Should you need demo game mode, please provide: Not needed at this stage
+- - Your callback server IP and the domain for edemo: N/A
+- - Currency displayed in-game (pick one): N/A
+
+Server configuration:
+- Do you want to receive /win with amount=0 requests? Yes
+- Do you want to receive a notification when a game session ends? Yes
+- Do you want to receive additional session info with each request? Yes
+- Do you support bet denominations lower 0.01? No
+
+Tournament integration (page 22)
+- Do you want to implement our tournament tool? Yes
+
+Free spins integration:
+- If you want to implement free spins: Not in the first phase
+- - Will you implement seamless wallet-like (pages 29 to 34) or transfer wallet-like (pages 35 to 42) free spins? N/A (may add Seamless later)
+- - If picked transfer wallet-like free spins:
+- - - Do you want to receive /bet in a bonus account? No
+- - - Do you want to receive /win in a bonus account? No
+
+Free credits integration (pages 23-28):
+- Do you want to implement our free credits bonus tool? No
