@@ -1,0 +1,97 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Length 6498 >>
+stream
+BT /F2 16 Tf 50 780 Td (Golden Bounty - Endorphina Seamless API Acceptance Test Report) Tj ET
+BT /F1 10 Tf 50 754 Td (Tool: endorphina-acceptance-test-2.9  |  Suite: Base  |  API spec: Seamless v1.9.5) Tj ET
+BT /F1 10 Tf 50 738 Td (Callback URL: https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina) Tj ET
+BT /F1 10 Tf 50 722 Td (nodeId: 8 \(mock\)  |  Test date: 2026-09-02  |  Operator: Golden Bounty \(golden-bounty.com\)) Tj ET
+BT /F2 12 Tf 50 698 Td (Node configuration) Tj ET
+BT /F2 12 Tf 50 672 Td (Test steps) Tj ET
+BT /F2 10 Tf 50 654 Td (Total: 40   Successful: 36   Skipped: 0   Failed: 4) Tj ET
+BT /F2 9 Tf 50 634 Td (Step) Tj ET BT /F2 9 Tf 300 634 Td (Result) Tj ET BT /F2 9 Tf 380 634 Td (Details) Tj ET
+BT /F1 9 Tf 50 620 Td (/check test) Tj ET BT /F1 9 Tf 300 620 Td (Successful) Tj ET BT /F1 9 Tf 380 620 Td (Successful) Tj ET
+BT /F1 9 Tf 50 607 Td (launch url) Tj ET BT /F1 9 Tf 300 607 Td (Successful) Tj ET BT /F1 9 Tf 380 607 Td (Successful) Tj ET
+BT /F1 9 Tf 50 594 Td (/session \(launch\)) Tj ET BT /F1 9 Tf 300 594 Td (Successful) Tj ET BT /F1 9 Tf 380 594 Td (Successful) Tj ET
+BT /F1 9 Tf 50 581 Td (/balance \(launch\)) Tj ET BT /F1 9 Tf 300 581 Td (Successful) Tj ET BT /F1 9 Tf 380 581 Td (Successful) Tj ET
+BT /F1 9 Tf 50 568 Td (/bet \(round 1\)) Tj ET BT /F1 9 Tf 300 568 Td (Successful) Tj ET BT /F1 9 Tf 380 568 Td (Successful) Tj ET
+BT /F1 9 Tf 50 555 Td (/balance \(round 1 after bet\)) Tj ET BT /F1 9 Tf 300 555 Td (Successful) Tj ET BT /F1 9 Tf 380 555 Td (Successful) Tj ET
+BT /F1 9 Tf 50 542 Td (/win \(round 1\)) Tj ET BT /F1 9 Tf 300 542 Td (Successful) Tj ET BT /F1 9 Tf 380 542 Td (Successful) Tj ET
+BT /F1 9 Tf 50 529 Td (/balance \(round 1 after win\)) Tj ET BT /F1 9 Tf 300 529 Td (Successful) Tj ET BT /F1 9 Tf 380 529 Td (Successful) Tj ET
+BT /F1 9 Tf 50 516 Td (/bet \(round 2\)) Tj ET BT /F1 9 Tf 300 516 Td (Successful) Tj ET BT /F1 9 Tf 380 516 Td (Successful) Tj ET
+BT /F1 9 Tf 50 503 Td (/bet \(round 2 duplicate\)) Tj ET BT /F1 9 Tf 300 503 Td (Successful) Tj ET BT /F1 9 Tf 380 503 Td (Successful) Tj ET
+BT /F1 9 Tf 50 490 Td (/win \(round 2 zero win\)) Tj ET BT /F1 9 Tf 300 490 Td (Successful) Tj ET BT /F1 9 Tf 380 490 Td (Successful) Tj ET
+BT /F1 9 Tf 50 477 Td (/balance \(round 2 after duplicated bet\)) Tj ET BT /F1 9 Tf 300 477 Td (Successful) Tj ET BT /F1 9 Tf 380 477 Td (Successful) Tj ET
+BT /F1 9 Tf 50 464 Td (/bet \(round 3\)) Tj ET BT /F1 9 Tf 300 464 Td (Successful) Tj ET BT /F1 9 Tf 380 464 Td (Successful) Tj ET
+BT /F1 9 Tf 50 451 Td (/refund \(round 3\)) Tj ET BT /F1 9 Tf 300 451 Td (Successful) Tj ET BT /F1 9 Tf 380 451 Td (Successful) Tj ET
+BT /F1 9 Tf 50 438 Td (/balance \(round 3 after refund\)) Tj ET BT /F1 9 Tf 300 438 Td (Successful) Tj ET BT /F1 9 Tf 380 438 Td (Successful) Tj ET
+BT /F1 9 Tf 50 425 Td (/refund \(round 3 duplicate\)) Tj ET BT /F1 9 Tf 300 425 Td (Successful) Tj ET BT /F1 9 Tf 380 425 Td (Successful) Tj ET
+BT /F1 9 Tf 50 412 Td (/balance \(round 3 after duplicated refund\)) Tj ET BT /F1 9 Tf 300 412 Td (Successful) Tj ET BT /F1 9 Tf 380 412 Td (Successful) Tj ET
+BT /F1 9 Tf 50 399 Td (/bet \(round 4\)) Tj ET BT /F1 9 Tf 300 399 Td (Successful) Tj ET BT /F1 9 Tf 380 399 Td (Successful) Tj ET
+BT /F1 9 Tf 50 386 Td (/win \(round 4\)) Tj ET BT /F1 9 Tf 300 386 Td (Successful) Tj ET BT /F1 9 Tf 380 386 Td (Successful) Tj ET
+BT /F1 9 Tf 50 373 Td (/win \(round 4 duplicate\)) Tj ET BT /F1 9 Tf 300 373 Td (Successful) Tj ET BT /F1 9 Tf 380 373 Td (Successful) Tj ET
+BT /F1 9 Tf 50 360 Td (/balance \(round 4 after duplicated win\)) Tj ET BT /F1 9 Tf 300 360 Td (Successful) Tj ET BT /F1 9 Tf 380 360 Td (Successful) Tj ET
+BT /F1 9 Tf 50 347 Td (/bet \(round 5\)) Tj ET BT /F1 9 Tf 300 347 Td (Successful) Tj ET BT /F1 9 Tf 380 347 Td (Successful) Tj ET
+BT /F1 9 Tf 50 334 Td (/win with jackpot \(round 5\)) Tj ET BT /F1 9 Tf 300 334 Td (Aborted) Tj ET BT /F1 9 Tf 380 334 Td (Disabled by node properties) Tj ET
+BT /F1 9 Tf 50 321 Td (/balance \(round 5 after jackpot win\)) Tj ET BT /F1 9 Tf 300 321 Td (Aborted) Tj ET BT /F1 9 Tf 380 321 Td (Disabled by node properties) Tj ET
+BT /F1 9 Tf 50 308 Td (/win with jackpot \(round 5 duplicate\)) Tj ET BT /F1 9 Tf 300 308 Td (Aborted) Tj ET BT /F1 9 Tf 380 308 Td (Disabled by node properties) Tj ET
+BT /F1 9 Tf 50 295 Td (/win \(round 5 zero win\)) Tj ET BT /F1 9 Tf 300 295 Td (Successful) Tj ET BT /F1 9 Tf 380 295 Td (Successful) Tj ET
+BT /F1 9 Tf 50 282 Td (/balance \(round 5 after duplicated jackpot win\)) Tj ET BT /F1 9 Tf 300 282 Td (Successful) Tj ET BT /F1 9 Tf 380 282 Td (Successful) Tj ET
+BT /F1 9 Tf 50 269 Td (/bet \(round 6\)) Tj ET BT /F1 9 Tf 300 269 Td (Successful) Tj ET BT /F1 9 Tf 380 269 Td (Successful) Tj ET
+BT /F1 9 Tf 50 256 Td (/win with jackpot \(round 6\)) Tj ET BT /F1 9 Tf 300 256 Td (Aborted) Tj ET BT /F1 9 Tf 380 256 Td (Disabled by node properties) Tj ET
+BT /F1 9 Tf 50 243 Td (/win \(round 6\)) Tj ET BT /F1 9 Tf 300 243 Td (Successful) Tj ET BT /F1 9 Tf 380 243 Td (Successful) Tj ET
+BT /F1 9 Tf 50 230 Td (/balance \(round 6\)) Tj ET BT /F1 9 Tf 300 230 Td (Successful) Tj ET BT /F1 9 Tf 380 230 Td (Successful) Tj ET
+BT /F1 9 Tf 50 217 Td (/bet \(round 7\)) Tj ET BT /F1 9 Tf 300 217 Td (Successful) Tj ET BT /F1 9 Tf 380 217 Td (Successful) Tj ET
+BT /F1 9 Tf 50 204 Td (/bet \(round 8\)) Tj ET BT /F1 9 Tf 300 204 Td (Successful) Tj ET BT /F1 9 Tf 380 204 Td (Successful) Tj ET
+BT /F1 9 Tf 50 191 Td (/win \(round 7\)) Tj ET BT /F1 9 Tf 300 191 Td (Successful) Tj ET BT /F1 9 Tf 380 191 Td (Successful) Tj ET
+BT /F1 9 Tf 50 178 Td (/win \(round 8 zero win\)) Tj ET BT /F1 9 Tf 300 178 Td (Successful) Tj ET BT /F1 9 Tf 380 178 Td (Successful) Tj ET
+BT /F1 9 Tf 50 165 Td (/balance \(round 8\)) Tj ET BT /F1 9 Tf 300 165 Td (Successful) Tj ET BT /F1 9 Tf 380 165 Td (Successful) Tj ET
+BT /F1 9 Tf 50 152 Td (/bet \(round 9 all money\)) Tj ET BT /F1 9 Tf 300 152 Td (Successful) Tj ET BT /F1 9 Tf 380 152 Td (Successful) Tj ET
+BT /F1 9 Tf 50 139 Td (/win \(round 9 zero win\)) Tj ET BT /F1 9 Tf 300 139 Td (Successful) Tj ET BT /F1 9 Tf 380 139 Td (Successful) Tj ET
+BT /F1 9 Tf 50 126 Td (/bet \(round 10 insufficient funds\)) Tj ET BT /F1 9 Tf 300 126 Td (Successful) Tj ET BT /F1 9 Tf 380 126 Td (Successful) Tj ET
+BT /F1 9 Tf 50 113 Td (/endSession) Tj ET BT /F1 9 Tf 300 113 Td (Successful) Tj ET BT /F1 9 Tf 380 113 Td (Successful) Tj ET
+BT /F2 12 Tf 50 90 Td (Notes) Tj ET
+BT /F1 9 Tf 50 72 Td (- Jackpot steps are skipped because node.jackpotEnabled=false on the mock node.) Tj ET
+endstream
+endobj
+4 0 obj
+<< /Length 241 >>
+stream
+BT /F1 9 Tf 50 780 Td (- All money-moving callbacks are idempotent; duplicate bet/win/refund return the stored response.) Tj ET
+BT /F1 9 Tf 50 765 Td (- Insufficient funds -> 402, wrong signature -> 401, unknown token -> 404 verified.) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 595 842] /Contents 3 0 R /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 595 842] /Contents 4 0 R /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [5 0 R 6 0 R] /Count 2 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000079 00000 n 
+0000000154 00000 n 
+0000006704 00000 n 
+0000006996 00000 n 
+0000007132 00000 n 
+0000007268 00000 n 
+0000007331 00000 n 
+trailer
+<< /Size 9 /Root 8 0 R >>
+startxref
+7380
+%%EOF
