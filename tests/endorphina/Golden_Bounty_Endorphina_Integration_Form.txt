@@ -1,0 +1,50 @@
+ENDORPHINA — SEAMLESS WALLET INTEGRATION FORM
+Operator: Golden Bounty (golden-bounty.com)
+Date: 2026-09-02
+
+=== GENERAL INFO ===
+Brand name:                         Golden Bounty
+Website:                            https://golden-bounty.com
+Staging website:                    https://golden-bounty.base44.app
+Email for keys / technical info:    tech@golden-bounty.com
+Telegram (faster coordination):     https://t.me/golden_bounty_tg
+
+Callback endpoint URL (staging):    https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina
+Callback endpoint URL (production): https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina
+(Endorphina appends the method name: /session, /balance, /bet, /win, /refund, /promoWin, /endSession, /check)
+
+Currencies to enable (3):           USD, EUR, USDT
+
+=== FREE TRIAL GAMES (edemo) ===
+Demo game mode needed:              No (may request later)
+
+=== SERVER CONFIGURATION ===
+Receive /win with amount=0:                          Yes
+Receive notification when a game session ends:       Yes
+Receive additional session info with each request:   Yes
+Support bet denominations lower than 0.01:           No
+
+=== TOURNAMENT INTEGRATION ===
+Implement tournament tool (/promoWin):               Yes
+
+=== FREE SPINS INTEGRATION ===
+Implement free spins:                                Not in phase one
+
+=== FREE CREDITS (BONUS) INTEGRATION ===
+Implement free credits bonus tool:                   No (not in phase one)
+
+=== INTEGRATION STATUS ===
+Acceptance test (Base suite, tool v2.9):  PASSED — all steps Successful
+  (jackpot steps skipped: disabled by node properties in the mock config)
+Report:  https://raw.githubusercontent.com/GoldenBountybot/golden-bounty-assets/main/tests/endorphina/report.html
+Implemented: signature verification (SHA-1 + salt), idempotent transactions,
+  402 INSUFFICIENT_FUNDS, refund of unknown bet stored as cancelled,
+  zero-win acknowledged, endSession, check.
+Player id format: 32-hex (uuid without dashes). Amounts x1000.
+
+=== WHAT WE NEED FROM ENDORPHINA ===
+1. Staging nodeId + secret key (currently running with mock nodeId 8)
+2. Staging game launch URL format + list of games enabled for us
+3. Game thumbnails / media kit (CDN or zip) for our lobby
+4. Confirmation of callback server IPs (178.33.61.104 / 88.198.136.152)
+5. Next steps and timeline for production keys
