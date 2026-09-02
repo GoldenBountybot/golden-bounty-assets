@@ -1,6 +1,9 @@
 name: Endorphina Acceptance Test
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'tests/endorphina/trigger.txt'
 permissions:
   contents: write
 jobs:
