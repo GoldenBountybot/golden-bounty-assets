@@ -1,50 +1,35 @@
-ENDORPHINA — SEAMLESS WALLET INTEGRATION FORM
-Operator: Golden Bounty (golden-bounty.com)
-Date: 2026-09-02
+Endorphina – Seamless Wallet Integration Form
+Operator: Golden Bounty
+Date: 02.09.2026
 
-=== GENERAL INFO ===
-Brand name:                         Golden Bounty
-Website:                            https://golden-bounty.com
-Staging website:                    https://golden-bounty.base44.app
-Email for keys / technical info:    tech@golden-bounty.com
-Telegram (faster coordination):     https://t.me/golden_bounty_tg
+General info:
+- Brand name: Golden Bounty (golden-bounty.com)
+- The email where we have to send the key's information to: tech@golden-bounty.com
+- If available, provide staging website: https://golden-bounty.base44.app
+- Callback endpoint URL for staging server: https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina
+- Callback endpoint URL for production server: https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina
+- Currencies you want to enable (Pick 3): USD, EUR, USDT
 
-Callback endpoint URL (staging):    https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina
-Callback endpoint URL (production): https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina
-(Endorphina appends the method name: /session, /balance, /bet, /win, /refund, /promoWin, /endSession, /check)
+Free trial games (edemo) for players:
+- Should you need demo game mode: No, not for now (we may request edemo later)
 
-Currencies to enable (3):           USD, EUR, USDT
+Server configuration:
+- Do you want to receive /win with amount=0 requests? Yes
+- Do you want to receive a notification when a game session ends? Yes
+- Do you want to receive additional session info with each request? Yes
+- Do you support bet denominations lower 0.01? No
 
-=== FREE TRIAL GAMES (edemo) ===
-Demo game mode needed:              No (may request later)
+Tournament integration (page 22):
+- Do you want to implement our tournament tool? Yes – /promoWin endpoint is implemented
 
-=== SERVER CONFIGURATION ===
-Receive /win with amount=0:                          Yes
-Receive notification when a game session ends:       Yes
-Receive additional session info with each request:   Yes
-Support bet denominations lower than 0.01:           No
+Free spins integration:
+- If you want to implement free spins: Not in the first phase (may be added later)
 
-=== TOURNAMENT INTEGRATION ===
-Implement tournament tool (/promoWin):               Yes
+Free credits integration (pages 23-28):
+- Do you want to implement our free credits bonus tool? No, not in the first phase
 
-=== FREE SPINS INTEGRATION ===
-Implement free spins:                                Not in phase one
-
-=== FREE CREDITS (BONUS) INTEGRATION ===
-Implement free credits bonus tool:                   No (not in phase one)
-
-=== INTEGRATION STATUS ===
-Acceptance test (Base suite, tool v2.9):  PASSED — all steps Successful
-  (jackpot steps skipped: disabled by node properties in the mock config)
-Report:  https://raw.githubusercontent.com/GoldenBountybot/golden-bounty-assets/main/tests/endorphina/report.html
-Implemented: signature verification (SHA-1 + salt), idempotent transactions,
-  402 INSUFFICIENT_FUNDS, refund of unknown bet stored as cancelled,
-  zero-win acknowledged, endSession, check.
-Player id format: 32-hex (uuid without dashes). Amounts x1000.
-
-=== WHAT WE NEED FROM ENDORPHINA ===
-1. Staging nodeId + secret key (currently running with mock nodeId 8)
-2. Staging game launch URL format + list of games enabled for us
-3. Game thumbnails / media kit (CDN or zip) for our lobby
-4. Confirmation of callback server IPs (178.33.61.104 / 88.198.136.152)
-5. Next steps and timeline for production keys
+Acceptance test:
+- Test tool: endorphina-acceptance-test-2.9, suite = Base
+- Result: PASSED – all steps Successful (jackpot steps skipped: disabled by node properties in the mock config)
+- Report attached: report.html
+- Test session token from the manual (d1fe901b577f459abc0b2298a1f9f1dd) is active on our side
