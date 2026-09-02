@@ -1,0 +1,272 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Seamless API Acceptance Test Report</title>
+    <meta content="text/html;charset=UTF-8" http-equiv="Content-Type"/>
+    <link rel="stylesheet" href="/styles/main.css"/>
+</head>
+<body>
+<h1>Seamless API Acceptance Test Report</h1>
+<h3>Base test suite</h3>
+<ul>
+    <li>node.minBet: <b>0.001</b></li>
+    <li>node.sendZeroWin: <b>true</b></li>
+    
+    <li>node.sendEndSession: <b>true</b>
+    </li>
+    <li>node.sendSessionInfo: <b>true</b>
+    </li>
+    <li>node.sendBonusBet: <b>false</b></li>
+    <li>node.sendBonusWin: <b>false</b></li>
+    <li>node.jackpotEnabled: <b>false</b>
+    </li>
+</ul>
+<table>
+    <tr>
+        <th class="displayName">TestStep</th>
+        <th class="status">Result</th>
+        <th class="details">Details</th>
+    </tr>
+    <tr class="successful">
+        <td>/check test</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>launch url</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/session (launch)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/balance (launch)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/bet (round 1)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/balance (round 1 after bet)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/win (round 1)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/balance (round 1 after win)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/bet (round 2)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/bet (round 2 duplicate)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/win (round 2 zero win)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/balance (round 2 after duplicated bet)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/bet (round 3)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/refund (round 3)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/balance (round 3 after refund)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/refund (round 3 duplicate)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/balance (round 3 after duplicated refund)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/bet (round 4)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/win (round 4)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/win (round 4 duplicate)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/balance (round 4 after duplicated win)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/bet (round 5)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="aborted">
+        <td>/win with jackpot (round 5)</td>
+        <td>Aborted</td>
+        
+        <td>Disabled by node properties</td>
+    </tr>
+    <tr class="aborted">
+        <td>/balance (round 5 after jackpot win)</td>
+        <td>Aborted</td>
+        
+        <td>Disabled by node properties</td>
+    </tr>
+    <tr class="aborted">
+        <td>/win with jackpot (round 5 duplicate)</td>
+        <td>Aborted</td>
+        
+        <td>Disabled by node properties</td>
+    </tr>
+    <tr class="successful">
+        <td>/win (round 5 zero win)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/balance (round 5 after duplicated jackpot win)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/bet (round 6)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="aborted">
+        <td>/win with jackpot (round 6)</td>
+        <td>Aborted</td>
+        
+        <td>Disabled by node properties</td>
+    </tr>
+    <tr class="successful">
+        <td>/win (round 6)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/balance (round 6)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/bet (round 7)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/bet (round 8)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/win (round 7)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/win (round 8 zero win)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="successful">
+        <td>/balance (round 8)</td>
+        <td>Successful</td>
+        <td>Successful</td>
+        
+    </tr>
+    <tr class="failed">
+        <td>/bet (round 9 all money)</td>
+        <td>Failed</td>
+        
+        <td>Http status code must be 200</td>
+    </tr>
+    <tr class="aborted">
+        <td>/win (round 9 zero win)</td>
+        <td>Aborted</td>
+        
+        <td>One of the previous tests has failed</td>
+    </tr>
+    <tr class="aborted">
+        <td>/bet (round 10 insufficient funds)</td>
+        <td>Aborted</td>
+        
+        <td>One of the previous tests has failed</td>
+    </tr>
+    <tr class="aborted">
+        <td>/endSession</td>
+        <td>Aborted</td>
+        
+        <td>One of the previous tests has failed</td>
+    </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,1122 @@
+14:53:10.795 INFO  runner - Generate launchUrl (using correct nodeId, token, exit, sign) and open it in browser
+14:53:11.259 INFO  request logger - <-- GET /
+14:53:11.260 INFO  request logger - Accept: */*
+14:53:11.261 INFO  request logger - Host: localhost:8080
+14:53:11.261 INFO  request logger - User-agent: curl/8.5.0
+14:53:11.261 INFO  request logger - <-- END GET
+14:53:14.714 INFO  request logger - <-- GET /api/sessions/seamless/rest/v1?exit=http://google.com&nodeId=8&token=d1fe901b577f459abc0b2298a1f9f1dd&sign=cadf144fb63950a9eb813ca44a5e1ac77a906e4e
+14:53:14.714 INFO  request logger - Accept: */*
+14:53:14.714 INFO  request logger - Host: localhost:8080
+14:53:14.714 INFO  request logger - User-agent: curl/8.5.0
+14:53:14.714 INFO  request logger - <-- END GET
+14:53:15.781 INFO  org.eclipse.jetty.util.log - Logging initialized @9479ms to org.eclipse.jetty.util.log.Slf4jLog
+14:53:18.022 INFO  runner - Test "/check test" execution started
+14:53:18.977 INFO  request logger - --> GET https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/check?param=728916b3-8c28-4f64-a7b7-145e151dfe4b&sign=9327956addd780767fc523c92ef2792a4c45a362
+14:53:18.978 INFO  request logger - Accept-Encoding: gzip
+14:53:18.978 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:53:18.979 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:53:19.522 INFO  request logger - --> END GET
+14:53:19.747 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/check?param=728916b3-8c28-4f64-a7b7-145e151dfe4b&sign=9327956addd780767fc523c92ef2792a4c45a362
+14:53:19.753 INFO  request logger - Date: Wed, 02 Sep 2026 14:53:19 GMT
+14:53:19.754 INFO  request logger - Content-Type: application/json
+14:53:19.754 INFO  request logger - Content-Length: 129
+14:53:19.754 INFO  request logger - Connection: keep-alive
+14:53:19.754 INFO  request logger - CF-Ray: a34d57f508c7cd36-SJC
+14:53:19.754 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:53:19.754 INFO  request logger - Access-Control-Allow-Origin: *
+14:53:19.754 INFO  request logger - Content-Encoding: gzip
+14:53:19.754 INFO  request logger - Server: cloudflare
+14:53:19.754 INFO  request logger - Vary: Accept-Encoding
+14:53:19.754 INFO  request logger - X-Content-Type-Options: nosniff
+14:53:19.754 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:53:19.754 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:53:19.754 INFO  request logger - endpoint-load-metrics: application_utilization:13,named_metrics.queue_depth:13
+14:53:19.754 INFO  request logger - sb-gateway-version: 1
+14:53:19.754 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:53:19.754 INFO  request logger - sb-request-id: 01a0629c-352a-702a-bfdf-2bc66cb16c9d
+14:53:19.754 INFO  request logger - x-deno-execution-id: 1fb7b47a-eedd-417e-b8fa-254e3e4e90c4
+14:53:19.754 INFO  request logger - x-sb-edge-region: us-west-1
+14:53:19.754 INFO  request logger - x-served-by: supabase-edge-runtime
+14:53:19.754 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:53:19.754 INFO  request logger - Set-Cookie: __cf_bm=HvS08MLbNYwTJlFaYP7ABa6AhinT_Xs7B8msqpPhC_M-1788360799.5239646-1.0.1.1-IxNkoymNAqpUh0glcrxk1XIIZeXp3Hi2RSnZpy_5nHnBC8L5zVImcIbSpeyAHPLVqfktmuFEHWyVKX5GBBcDKsGkewxByHMtFYBQGQWQpSgrGcmBEOcFR5aHOQWbOoK9; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:23:19 GMT
+14:53:19.754 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:53:19.768 INFO  request logger - {"nodeId":8,"param":"728916b3-8c28-4f64-a7b7-145e151dfe4b","sign":"f90010194e3655145458519f0eaaae0b24eea1d1"}
+14:53:19.768 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/check?param=728916b3-8c28-4f64-a7b7-145e151dfe4b&sign=9327956addd780767fc523c92ef2792a4c45a362
+14:53:19.807 INFO  runner - Test "/check test" execution finished
+14:53:19.808 INFO  runner - Test "launch url" execution started
+14:53:20.099 INFO  runner - Test "launch url" execution finished
+14:53:20.100 INFO  runner - Test "/session (launch)" execution started
+14:53:20.101 INFO  request logger - --> GET https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/session?token=d1fe901b577f459abc0b2298a1f9f1dd&sign=d2f666e947c6c713cb462726d86974cb1f57f549
+14:53:20.102 INFO  request logger - Accept-Encoding: gzip
+14:53:20.102 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:53:20.102 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:53:20.102 INFO  request logger - --> END GET
+14:53:21.055 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/session?token=d1fe901b577f459abc0b2298a1f9f1dd&sign=d2f666e947c6c713cb462726d86974cb1f57f549
+14:53:21.057 INFO  request logger - Date: Wed, 02 Sep 2026 14:53:21 GMT
+14:53:21.057 INFO  request logger - Content-Type: application/json
+14:53:21.057 INFO  request logger - Content-Length: 124
+14:53:21.057 INFO  request logger - Connection: keep-alive
+14:53:21.057 INFO  request logger - CF-Ray: a34d57f8ac16cd36-SJC
+14:53:21.057 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:53:21.057 INFO  request logger - Access-Control-Allow-Origin: *
+14:53:21.057 INFO  request logger - Content-Encoding: gzip
+14:53:21.057 INFO  request logger - Server: cloudflare
+14:53:21.057 INFO  request logger - Vary: Accept-Encoding
+14:53:21.057 INFO  request logger - X-Content-Type-Options: nosniff
+14:53:21.057 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:53:21.057 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:53:21.057 INFO  request logger - endpoint-load-metrics: application_utilization:12,named_metrics.queue_depth:12
+14:53:21.057 INFO  request logger - sb-gateway-version: 1
+14:53:21.057 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:53:21.057 INFO  request logger - sb-request-id: 01a0629c-376d-704c-9703-67caa40845a0
+14:53:21.057 INFO  request logger - x-deno-execution-id: 3d00f665-ca54-4bcd-b29f-2974e2cfd3fe
+14:53:21.057 INFO  request logger - x-sb-edge-region: us-west-1
+14:53:21.057 INFO  request logger - x-served-by: supabase-edge-runtime
+14:53:21.057 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:53:21.058 INFO  request logger - Set-Cookie: __cf_bm=GAQBTZwBvMk.E5ZxWhrrIgGXo9RWzVyLUTtdo7G0Lvc-1788360800.1045125-1.0.1.1-Ry8cgE6UEbVLZMdAy3RaEL1ofvc_eDEhL1ydicU2WkSjw229bfS1hWzPkzEFGjz26Oiu89cPRi2MiBQfdtwEJwWusV4Fh4tyiEPauqWSLp6S0DVmtLBUMkEjPdbTeKhi; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:23:21 GMT
+14:53:21.058 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:53:21.058 INFO  request logger - {"player":"869DF4608D784DA6AA2F76D297F2D9E4","currency":"USD","game":"endorphina_TheEmirate@ENDORPHINA"}
+14:53:21.058 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/session?token=d1fe901b577f459abc0b2298a1f9f1dd&sign=d2f666e947c6c713cb462726d86974cb1f57f549
+14:53:21.060 INFO  runner - Test "/session (launch)" execution finished
+14:53:21.060 INFO  runner - Test "/balance (launch)" execution started
+14:53:21.062 INFO  request logger - --> GET https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:53:21.062 INFO  request logger - Accept-Encoding: gzip
+14:53:21.062 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:53:21.062 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:53:21.063 INFO  request logger - --> END GET
+14:53:22.129 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:53:22.130 INFO  request logger - Date: Wed, 02 Sep 2026 14:53:22 GMT
+14:53:22.130 INFO  request logger - Content-Type: application/json
+14:53:22.130 INFO  request logger - Transfer-Encoding: chunked
+14:53:22.130 INFO  request logger - Connection: keep-alive
+14:53:22.130 INFO  request logger - CF-Ray: a34d57fea8f7cd36-SJC
+14:53:22.130 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:53:22.130 INFO  request logger - Access-Control-Allow-Origin: *
+14:53:22.130 INFO  request logger - Content-Encoding: gzip
+14:53:22.130 INFO  request logger - Server: cloudflare
+14:53:22.130 INFO  request logger - Vary: Accept-Encoding
+14:53:22.130 INFO  request logger - X-Content-Type-Options: nosniff
+14:53:22.130 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:53:22.130 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:53:22.131 INFO  request logger - endpoint-load-metrics: application_utilization:12,named_metrics.queue_depth:12
+14:53:22.131 INFO  request logger - sb-gateway-version: 1
+14:53:22.131 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:53:22.131 INFO  request logger - sb-request-id: 01a0629c-3b2c-7b50-819e-03c2cff6a657
+14:53:22.131 INFO  request logger - x-deno-execution-id: 810b70e9-97fc-4056-a4d6-349550db5cfb
+14:53:22.131 INFO  request logger - x-sb-edge-region: us-west-1
+14:53:22.131 INFO  request logger - x-served-by: supabase-edge-runtime
+14:53:22.131 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:53:22.131 INFO  request logger - Set-Cookie: __cf_bm=uD.h0mXBntjLfkkYSbG8IpPxTlb6dnpiu3FgPVscRAM-1788360801.0644534-1.0.1.1-MC4U97nNR2fQ791RA1DSuXJLy7oDaAiRxF7iAV4tXgQujPw7PsmEM98J427CC9tCaxcZMjkBe3ej5yufV8eTEtsvh1kB1gUi6stoddbFdWariE3Wp2W3N1rgzqnGVm2r; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:23:22 GMT
+14:53:22.131 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:53:22.131 INFO  request logger - {"balance":53733383}
+14:53:22.131 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:53:22.133 INFO  runner - Test "/balance (launch)" execution finished
+14:53:22.134 INFO  runner - Test "/bet (round 1)" execution started
+14:53:22.136 INFO  request logger - --> POST https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:53:22.137 INFO  request logger - Accept-Encoding: gzip
+14:53:22.137 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:53:22.137 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:53:22.137 INFO  request logger - Content-Type: application/x-www-form-urlencoded
+14:53:22.137 INFO  request logger - Content-Length: 231
+14:53:22.137 INFO  request logger - player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate%40ENDORPHINA&id=1788360795350&amount=5&gameId=1&date=1788360802135&token=d1fe901b577f459abc0b2298a1f9f1dd&sign=393dbf313f770952bbee92d4881a744a57319a82
+14:53:22.137 INFO  request logger - --> END POST
+14:53:26.073 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:53:26.074 INFO  request logger - Date: Wed, 02 Sep 2026 14:53:26 GMT
+14:53:26.074 INFO  request logger - Content-Type: application/json
+14:53:26.074 INFO  request logger - Content-Length: 60
+14:53:26.074 INFO  request logger - Connection: keep-alive
+14:53:26.074 INFO  request logger - CF-Ray: a34d58055917cd36-SJC
+14:53:26.074 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:53:26.074 INFO  request logger - Access-Control-Allow-Origin: *
+14:53:26.074 INFO  request logger - Content-Encoding: gzip
+14:53:26.074 INFO  request logger - Server: cloudflare
+14:53:26.074 INFO  request logger - Vary: Accept-Encoding
+14:53:26.075 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:53:26.075 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:53:26.075 INFO  request logger - endpoint-load-metrics: application_utilization:12,named_metrics.queue_depth:12
+14:53:26.075 INFO  request logger - sb-gateway-version: 1
+14:53:26.075 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:53:26.075 INFO  request logger - sb-request-id: 01a0629c-3f63-7921-8235-527e7387385d
+14:53:26.075 INFO  request logger - x-deno-execution-id: 78457f22-8c78-4686-964b-050322c387ca
+14:53:26.075 INFO  request logger - x-sb-edge-region: us-west-1
+14:53:26.075 INFO  request logger - x-served-by: supabase-edge-runtime
+14:53:26.075 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:53:26.075 INFO  request logger - Set-Cookie: __cf_bm=JUNLceuhfbEKNraj.lYqVwQtLA_z3Y8UEI_4zu29lpY-1788360802.1419625-1.0.1.1-iZQH9sGWDBx4rTeASjftmWxAHzOJquzRPi73a64wjoyyG8_MOOlgwrpIFmt5L_C5x21GZQbqyom62gYAz1NKEUQ2h2XmW8QCRABNiu_kuOsmS0PEE4ZJLIM0w6W9jfDG; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:23:26 GMT
+14:53:26.075 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:53:26.075 INFO  request logger - {"transactionId":"6","balance":53733378}
+14:53:26.075 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:53:26.077 INFO  runner - Test "/bet (round 1)" execution finished
+14:53:26.077 INFO  runner - Test "/balance (round 1 after bet)" execution started
+14:53:26.079 INFO  request logger - --> GET https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:53:26.079 INFO  request logger - Accept-Encoding: gzip
+14:53:26.079 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:53:26.079 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:53:26.079 INFO  request logger - --> END GET
+14:53:27.581 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:53:27.582 INFO  request logger - Date: Wed, 02 Sep 2026 14:53:27 GMT
+14:53:27.582 INFO  request logger - Content-Type: application/json
+14:53:27.582 INFO  request logger - Transfer-Encoding: chunked
+14:53:27.582 INFO  request logger - Connection: keep-alive
+14:53:27.582 INFO  request logger - CF-Ray: a34d581e0dfccd36-SJC
+14:53:27.582 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:53:27.582 INFO  request logger - Access-Control-Allow-Origin: *
+14:53:27.582 INFO  request logger - Content-Encoding: gzip
+14:53:27.582 INFO  request logger - Server: cloudflare
+14:53:27.582 INFO  request logger - Vary: Accept-Encoding
+14:53:27.582 INFO  request logger - X-Content-Type-Options: nosniff
+14:53:27.582 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:53:27.582 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:53:27.582 INFO  request logger - endpoint-load-metrics: application_utilization:12,named_metrics.queue_depth:12
+14:53:27.582 INFO  request logger - sb-gateway-version: 1
+14:53:27.582 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:53:27.582 INFO  request logger - sb-request-id: 01a0629c-4ec8-7473-b8d5-e6053bea6be8
+14:53:27.582 INFO  request logger - x-deno-execution-id: 6940fa5f-a772-4dd4-911e-184fe15093fa
+14:53:27.582 INFO  request logger - x-sb-edge-region: us-west-1
+14:53:27.582 INFO  request logger - x-served-by: supabase-edge-runtime
+14:53:27.582 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:53:27.582 INFO  request logger - Set-Cookie: __cf_bm=frhtU0LOoX12oz1zW0hvZmnngAdHHDeRg43jIzEHYkY-1788360806.0819218-1.0.1.1-QYRUOawt6_fwFLUfzHmCjYqqOkMMJ7WvltFCBAumr3VXDKC1J_VazEYh.RbSWB5I90QPCwBBERG3blByE1Qu1Z7ouJw5hTNhTsxqIXGAiswM605bfUc2uRfUCg1WYCuR; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:23:27 GMT
+14:53:27.582 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:53:27.583 INFO  request logger - {"balance":53733378}
+14:53:27.583 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:53:27.584 INFO  runner - Test "/balance (round 1 after bet)" execution finished
+14:53:27.584 INFO  runner - Test "/win (round 1)" execution started
+14:53:27.586 INFO  request logger - --> POST https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/win
+14:53:27.586 INFO  request logger - Accept-Encoding: gzip
+14:53:27.586 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:53:27.586 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:53:27.586 INFO  request logger - Content-Type: application/x-www-form-urlencoded
+14:53:27.586 INFO  request logger - Content-Length: 312
+14:53:27.586 INFO  request logger - player=869DF4608D784DA6AA2F76D297F2D9E4&game=endorphina_TheEmirate%40ENDORPHINA&currency=USD&betSessionId=d1fe901b577f459abc0b2298a1f9f1dd&betTransactionId=1788360795350&id=1788360795351&amount=50000&gameId=1&date=1788360807585&token=d1fe901b577f459abc0b2298a1f9f1dd&sign=9c5b43b1dbfa7aece0351554d6682102af865e86
+14:53:27.586 INFO  request logger - --> END POST
+14:53:32.147 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/win
+14:53:32.148 INFO  request logger - Date: Wed, 02 Sep 2026 14:53:32 GMT
+14:53:32.148 INFO  request logger - Content-Type: application/json
+14:53:32.148 INFO  request logger - Content-Length: 60
+14:53:32.148 INFO  request logger - Connection: keep-alive
+14:53:32.148 INFO  request logger - CF-Ray: a34d58276814cd36-SJC
+14:53:32.148 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:53:32.148 INFO  request logger - Access-Control-Allow-Origin: *
+14:53:32.149 INFO  request logger - Content-Encoding: gzip
+14:53:32.149 INFO  request logger - Server: cloudflare
+14:53:32.149 INFO  request logger - Vary: Accept-Encoding
+14:53:32.149 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:53:32.149 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:53:32.149 INFO  request logger - endpoint-load-metrics: application_utilization:11,named_metrics.queue_depth:11
+14:53:32.149 INFO  request logger - sb-gateway-version: 1
+14:53:32.149 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:53:32.149 INFO  request logger - sb-request-id: 01a0629c-54aa-7771-8043-db96c697fa9c
+14:53:32.149 INFO  request logger - x-deno-execution-id: 8f2cc427-ea32-4e68-b8c3-d849f98d2798
+14:53:32.149 INFO  request logger - x-sb-edge-region: us-west-1
+14:53:32.149 INFO  request logger - x-served-by: supabase-edge-runtime
+14:53:32.149 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:53:32.149 INFO  request logger - Set-Cookie: __cf_bm=h7byHNZphBMeB2waxilhEwEZCbM5.eRMVsKy.lsD26k-1788360807.5883145-1.0.1.1-4vjKTi2laQgwAIKD6BpXHQgsmPEB_XSNfoz6jffkm8aCbQRuQeD496T0b.myTZSeB40QfmKDWAw83BDVFd4t3OpPX6IKbg8p2orOKPmNxhwoBDw8LN2r.izBeXrksyfT; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:23:32 GMT
+14:53:32.149 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:53:32.149 INFO  request logger - {"transactionId":"7","balance":53783378}
+14:53:32.149 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/win
+14:53:32.150 INFO  runner - Test "/win (round 1)" execution finished
+14:53:32.151 INFO  runner - Test "/balance (round 1 after win)" execution started
+14:53:32.152 INFO  request logger - --> GET https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:53:32.152 INFO  request logger - Accept-Encoding: gzip
+14:53:32.152 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:53:32.152 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:53:32.152 INFO  request logger - --> END GET
+14:53:32.842 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:53:32.843 INFO  request logger - Date: Wed, 02 Sep 2026 14:53:32 GMT
+14:53:32.843 INFO  request logger - Content-Type: application/json
+14:53:32.843 INFO  request logger - Transfer-Encoding: chunked
+14:53:32.843 INFO  request logger - Connection: keep-alive
+14:53:32.843 INFO  request logger - CF-Ray: a34d5843fa79cd36-SJC
+14:53:32.844 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:53:32.844 INFO  request logger - Access-Control-Allow-Origin: *
+14:53:32.844 INFO  request logger - Content-Encoding: gzip
+14:53:32.844 INFO  request logger - Server: cloudflare
+14:53:32.844 INFO  request logger - Vary: Accept-Encoding
+14:53:32.844 INFO  request logger - X-Content-Type-Options: nosniff
+14:53:32.844 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:53:32.844 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:53:32.844 INFO  request logger - endpoint-load-metrics: application_utilization:11,named_metrics.queue_depth:11
+14:53:32.844 INFO  request logger - sb-gateway-version: 1
+14:53:32.844 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:53:32.844 INFO  request logger - sb-request-id: 01a0629c-667e-7031-ace5-f1c14bada352
+14:53:32.844 INFO  request logger - x-deno-execution-id: 8bec9f06-0ebc-494f-82f6-40bdc3947e20
+14:53:32.844 INFO  request logger - x-sb-edge-region: us-west-1
+14:53:32.844 INFO  request logger - x-served-by: supabase-edge-runtime
+14:53:32.844 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:53:32.844 INFO  request logger - Set-Cookie: __cf_bm=ZKqDpMjFCIfJxqqB_1.bCgkVvNBdfF2o.ITFz5bjVdI-1788360812.1541286-1.0.1.1-Q_BgalK4ADE95metIyCw9sDAJ3iINZSRG87MrdlfxlJmBCEE5sL2QOO8gmXheTmGRVdUVF8mmbwrXaCrgiAKQBMSL1OsXu5vNlwknu0MSZq55IJX2Mva3mnfquYG3VjN; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:23:32 GMT
+14:53:32.844 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:53:32.844 INFO  request logger - {"balance":53783378}
+14:53:32.844 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:53:32.845 INFO  runner - Test "/balance (round 1 after win)" execution finished
+14:53:32.846 INFO  runner - Test "/bet (round 2)" execution started
+14:53:32.847 INFO  request logger - --> POST https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:53:32.847 INFO  request logger - Accept-Encoding: gzip
+14:53:32.847 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:53:32.847 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:53:32.847 INFO  request logger - Content-Type: application/x-www-form-urlencoded
+14:53:32.847 INFO  request logger - Content-Length: 232
+14:53:32.847 INFO  request logger - player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate%40ENDORPHINA&id=1788360795352&amount=50&gameId=2&date=1788360812846&token=d1fe901b577f459abc0b2298a1f9f1dd&sign=fefd8847b9cc9b25c174d3c6e4e623d68577b053
+14:53:32.847 INFO  request logger - --> END POST
+14:53:35.111 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:53:35.112 INFO  request logger - Date: Wed, 02 Sep 2026 14:53:35 GMT
+14:53:35.112 INFO  request logger - Content-Type: application/json
+14:53:35.112 INFO  request logger - Content-Length: 60
+14:53:35.112 INFO  request logger - Connection: keep-alive
+14:53:35.112 INFO  request logger - CF-Ray: a34d58484a18cd36-SJC
+14:53:35.112 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:53:35.112 INFO  request logger - Access-Control-Allow-Origin: *
+14:53:35.112 INFO  request logger - Content-Encoding: gzip
+14:53:35.112 INFO  request logger - Server: cloudflare
+14:53:35.112 INFO  request logger - Vary: Accept-Encoding
+14:53:35.112 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:53:35.112 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:53:35.113 INFO  request logger - endpoint-load-metrics: application_utilization:11,named_metrics.queue_depth:11
+14:53:35.113 INFO  request logger - sb-gateway-version: 1
+14:53:35.113 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:53:35.113 INFO  request logger - sb-request-id: 01a0629c-6936-7831-86d7-891d0a4e8b58
+14:53:35.113 INFO  request logger - x-deno-execution-id: 8962c861-768a-442c-bd26-5d40db7361bf
+14:53:35.113 INFO  request logger - x-sb-edge-region: us-west-1
+14:53:35.113 INFO  request logger - x-served-by: supabase-edge-runtime
+14:53:35.113 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:53:35.113 INFO  request logger - Set-Cookie: __cf_bm=MEv5y7YWEEfdAqmZc1JhBDmCYvnNsEYwGzHq2Y6Unvw-1788360812.8493397-1.0.1.1-GEfQov_rqvnUcE8xxWj.TnEEstgr77W_3TFfut6A5t4Ie7DIxn73cpiIq3pm79EaEiZ3nTPcpginVZFdZn0e2ibfabUv1ZG.ZenZ4GbyjjQgWXKwxpOfFx5J8Slb7Qhd; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:23:35 GMT
+14:53:35.113 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:53:35.113 INFO  request logger - {"transactionId":"8","balance":53783328}
+14:53:35.113 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:53:35.114 INFO  runner - Test "/bet (round 2)" execution finished
+14:53:35.115 INFO  runner - Test "/bet (round 2 duplicate)" execution started
+14:53:35.116 INFO  request logger - --> POST https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:53:35.116 INFO  request logger - Accept-Encoding: gzip
+14:53:35.116 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:53:35.116 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:53:35.116 INFO  request logger - Content-Type: application/x-www-form-urlencoded
+14:53:35.116 INFO  request logger - Content-Length: 232
+14:53:35.117 INFO  request logger - player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate%40ENDORPHINA&id=1788360795352&amount=50&gameId=2&date=1788360812846&token=d1fe901b577f459abc0b2298a1f9f1dd&sign=fefd8847b9cc9b25c174d3c6e4e623d68577b053
+14:53:35.117 INFO  request logger - --> END POST
+14:53:35.738 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:53:35.739 INFO  request logger - Date: Wed, 02 Sep 2026 14:53:35 GMT
+14:53:35.739 INFO  request logger - Content-Type: application/json
+14:53:35.739 INFO  request logger - Content-Length: 60
+14:53:35.739 INFO  request logger - Connection: keep-alive
+14:53:35.739 INFO  request logger - CF-Ray: a34d58567d63cd36-SJC
+14:53:35.739 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:53:35.739 INFO  request logger - Access-Control-Allow-Origin: *
+14:53:35.739 INFO  request logger - Content-Encoding: gzip
+14:53:35.739 INFO  request logger - Server: cloudflare
+14:53:35.739 INFO  request logger - Vary: Accept-Encoding
+14:53:35.739 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:53:35.739 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:53:35.739 INFO  request logger - endpoint-load-metrics: application_utilization:10,named_metrics.queue_depth:10
+14:53:35.739 INFO  request logger - sb-gateway-version: 1
+14:53:35.739 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:53:35.739 INFO  request logger - sb-request-id: 01a0629c-7213-72c5-ac07-25f9c75d2f9c
+14:53:35.739 INFO  request logger - x-deno-execution-id: 0d5a5e8b-4b81-43b4-9c24-6eb6a26a0e10
+14:53:35.739 INFO  request logger - x-sb-edge-region: us-west-1
+14:53:35.739 INFO  request logger - x-served-by: supabase-edge-runtime
+14:53:35.739 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:53:35.739 INFO  request logger - Set-Cookie: __cf_bm=l6Bqwwkq2jbDMX6Xzh_NrgRtdLJOftRHJDri3Na53Ys-1788360815.1191056-1.0.1.1-1kZrlxj6zd5kBGGvcGtFqeim9POhPOFIQmbHAYAm4wqnsZ.J4qOMCJXLca3Xwhqp..DwHN4dOU7O.DV5z5GWCCK6g_KIPSWjQRrv2gz3gRsltzbxW0HGfwRZxwmbxiK1; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:23:35 GMT
+14:53:35.739 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:53:35.740 INFO  request logger - {"transactionId":"8","balance":53783328}
+14:53:35.740 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:53:35.741 INFO  runner - Test "/bet (round 2 duplicate)" execution finished
+14:53:35.741 INFO  runner - Test "/win (round 2 zero win)" execution started
+14:53:35.742 INFO  request logger - --> POST https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/win
+14:53:35.743 INFO  request logger - Accept-Encoding: gzip
+14:53:35.743 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:53:35.743 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:53:35.743 INFO  request logger - Content-Type: application/x-www-form-urlencoded
+14:53:35.743 INFO  request logger - Content-Length: 291
+14:53:35.743 INFO  request logger - player=869DF4608D784DA6AA2F76D297F2D9E4&game=endorphina_TheEmirate%40ENDORPHINA&currency=USD&betSessionId=d1fe901b577f459abc0b2298a1f9f1dd&betTransactionId=1788360795352&amount=0&gameId=2&date=1788360815742&token=d1fe901b577f459abc0b2298a1f9f1dd&sign=cd8841d49bf84f223e653d018ac59f7cb345068a
+14:53:35.743 INFO  request logger - --> END POST
+14:53:36.871 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/win
+14:53:36.872 INFO  request logger - Date: Wed, 02 Sep 2026 14:53:36 GMT
+14:53:36.872 INFO  request logger - Content-Type: application/json
+14:53:36.872 INFO  request logger - Content-Length: 73
+14:53:36.872 INFO  request logger - Connection: keep-alive
+14:53:36.872 INFO  request logger - CF-Ray: a34d585a6b58cd36-SJC
+14:53:36.872 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:53:36.872 INFO  request logger - Access-Control-Allow-Origin: *
+14:53:36.872 INFO  request logger - Content-Encoding: gzip
+14:53:36.872 INFO  request logger - Server: cloudflare
+14:53:36.872 INFO  request logger - Vary: Accept-Encoding
+14:53:36.872 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:53:36.872 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:53:36.872 INFO  request logger - endpoint-load-metrics: application_utilization:12,named_metrics.queue_depth:12
+14:53:36.872 INFO  request logger - sb-gateway-version: 1
+14:53:36.872 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:53:36.872 INFO  request logger - sb-request-id: 01a0629c-74a7-71fa-8727-388ae33ae663
+14:53:36.872 INFO  request logger - x-deno-execution-id: f72f563a-e8a5-425a-9e28-249216e35bac
+14:53:36.872 INFO  request logger - x-sb-edge-region: us-west-1
+14:53:36.872 INFO  request logger - x-served-by: supabase-edge-runtime
+14:53:36.872 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:53:36.872 INFO  request logger - Set-Cookie: __cf_bm=Q8jMz89CjTxDD3oBN_VT0o2I1KkW.zHY0S.BeY3nvKs-1788360815.7450063-1.0.1.1-5NPANoTo37kRAsVff1WQ7uuB0JA6HtnPcKp82g77FoPanE7UXTQlAuxyG8brCUyhzqp16fG6sqr1lOdtjnuMcTbinJ7ASJZ370HZZo44wP9loR243cjeY9bCrYTPHzdA; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:23:36 GMT
+14:53:36.872 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:53:36.872 INFO  request logger - {"transactionId":"Z1788360816638","balance":53783328}
+14:53:36.872 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/win
+14:53:36.874 INFO  runner - Test "/win (round 2 zero win)" execution finished
+14:53:36.874 INFO  runner - Test "/balance (round 2 after duplicated bet)" execution started
+14:53:36.875 INFO  request logger - --> GET https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:53:36.875 INFO  request logger - Accept-Encoding: gzip
+14:53:36.875 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:53:36.875 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:53:36.876 INFO  request logger - --> END GET
+14:53:37.493 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:53:37.494 INFO  request logger - Date: Wed, 02 Sep 2026 14:53:37 GMT
+14:53:37.494 INFO  request logger - Content-Type: application/json
+14:53:37.494 INFO  request logger - Transfer-Encoding: chunked
+14:53:37.494 INFO  request logger - Connection: keep-alive
+14:53:37.494 INFO  request logger - CF-Ray: a34d58617ccccd36-SJC
+14:53:37.494 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:53:37.494 INFO  request logger - Access-Control-Allow-Origin: *
+14:53:37.494 INFO  request logger - Content-Encoding: gzip
+14:53:37.494 INFO  request logger - Server: cloudflare
+14:53:37.494 INFO  request logger - Vary: Accept-Encoding
+14:53:37.494 INFO  request logger - X-Content-Type-Options: nosniff
+14:53:37.494 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:53:37.494 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:53:37.494 INFO  request logger - endpoint-load-metrics: application_utilization:12,named_metrics.queue_depth:12
+14:53:37.494 INFO  request logger - sb-gateway-version: 1
+14:53:37.494 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:53:37.494 INFO  request logger - sb-request-id: 01a0629c-78f4-76e5-b535-a74f191ac7ac
+14:53:37.494 INFO  request logger - x-deno-execution-id: 07762b28-47e3-47c2-b274-86cb9f3541f7
+14:53:37.494 INFO  request logger - x-sb-edge-region: us-west-1
+14:53:37.494 INFO  request logger - x-served-by: supabase-edge-runtime
+14:53:37.494 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:53:37.494 INFO  request logger - Set-Cookie: __cf_bm=O39TJYUwNrr45fYvoVWFgKgRtiOdDp0lVIekAhoEXnQ-1788360816.8785527-1.0.1.1-iUasjNJtF5YAFhuJzQY6OE7Z1wn2hUj7mG5Kwjtu6jQp9qM5S4wwEjzxEsIZnR9FXpEk8ga9L2BdDchfzsstRNPecPXKr7WyCy4OyAzUtU7vw5FYyHNdVTkMu3X1Eh9v; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:23:37 GMT
+14:53:37.494 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:53:37.495 INFO  request logger - {"balance":53783328}
+14:53:37.495 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:53:37.496 INFO  runner - Test "/balance (round 2 after duplicated bet)" execution finished
+14:53:37.497 INFO  runner - Test "/bet (round 3)" execution started
+14:53:37.498 INFO  request logger - --> POST https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:53:37.498 INFO  request logger - Accept-Encoding: gzip
+14:53:37.498 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:53:37.498 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:53:37.498 INFO  request logger - Content-Type: application/x-www-form-urlencoded
+14:53:37.498 INFO  request logger - Content-Length: 233
+14:53:37.498 INFO  request logger - player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate%40ENDORPHINA&id=1788360795353&amount=500&gameId=3&date=1788360817497&token=d1fe901b577f459abc0b2298a1f9f1dd&sign=bb294cedcc55c1f472c1d45d701022af94f9116e
+14:53:37.498 INFO  request logger - --> END POST
+14:53:39.344 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:53:39.346 INFO  request logger - Date: Wed, 02 Sep 2026 14:53:39 GMT
+14:53:39.346 INFO  request logger - Content-Type: application/json
+14:53:39.346 INFO  request logger - Content-Length: 60
+14:53:39.346 INFO  request logger - Connection: keep-alive
+14:53:39.346 INFO  request logger - CF-Ray: a34d58656a31cd36-SJC
+14:53:39.346 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:53:39.346 INFO  request logger - Access-Control-Allow-Origin: *
+14:53:39.346 INFO  request logger - Content-Encoding: gzip
+14:53:39.346 INFO  request logger - Server: cloudflare
+14:53:39.346 INFO  request logger - Vary: Accept-Encoding
+14:53:39.346 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:53:39.346 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:53:39.346 INFO  request logger - endpoint-load-metrics: application_utilization:11,named_metrics.queue_depth:11
+14:53:39.346 INFO  request logger - sb-gateway-version: 1
+14:53:39.346 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:53:39.346 INFO  request logger - sb-request-id: 01a0629c-7b61-7194-9631-587bd9be5b2e
+14:53:39.346 INFO  request logger - x-deno-execution-id: fd2ab43d-d181-420f-997e-f8aff736386a
+14:53:39.346 INFO  request logger - x-sb-edge-region: us-west-1
+14:53:39.346 INFO  request logger - x-served-by: supabase-edge-runtime
+14:53:39.346 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:53:39.346 INFO  request logger - Set-Cookie: __cf_bm=JZyJZ8779nAgbidozVHTD0TXwzR41ItHJZfMqaW3V0Q-1788360817.500912-1.0.1.1-g4YJ5G9D9Pnzr4W4opDxneHT8tyCUi9FAtuMo.Qz0laY7y.73R7E8pvC0hFO6dlVINPHk5HKAasTuRPXnkmedbf04LlzykBMuu5RRsP6JDrh4f_bXvcShBMT6dhlaK5j; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:23:39 GMT
+14:53:39.346 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:53:39.346 INFO  request logger - {"transactionId":"9","balance":53782828}
+14:53:39.347 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:53:39.349 INFO  runner - Test "/bet (round 3)" execution finished
+14:53:39.349 INFO  runner - Test "/refund (round 3)" execution started
+14:53:39.351 INFO  request logger - --> POST https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/refund
+14:53:39.351 INFO  request logger - Accept-Encoding: gzip
+14:53:39.351 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:53:39.351 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:53:39.351 INFO  request logger - Content-Type: application/x-www-form-urlencoded
+14:53:39.351 INFO  request logger - Content-Length: 233
+14:53:39.352 INFO  request logger - player=869DF4608D784DA6AA2F76D297F2D9E4&game=endorphina_TheEmirate%40ENDORPHINA&currency=USD&id=1788360795353&amount=500&gameId=3&date=1788360819350&token=d1fe901b577f459abc0b2298a1f9f1dd&sign=d575aed8b3474b6ea612f003c1847c4c3e2caaad
+14:53:39.352 INFO  request logger - --> END POST
+14:53:42.983 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/refund
+14:53:42.985 INFO  request logger - Date: Wed, 02 Sep 2026 14:53:42 GMT
+14:53:42.986 INFO  request logger - Content-Type: application/json
+14:53:42.986 INFO  request logger - Content-Length: 61
+14:53:42.986 INFO  request logger - Connection: keep-alive
+14:53:42.986 INFO  request logger - CF-Ray: a34d5870fa0fcd36-SJC
+14:53:42.986 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:53:42.986 INFO  request logger - Access-Control-Allow-Origin: *
+14:53:42.986 INFO  request logger - Content-Encoding: gzip
+14:53:42.986 INFO  request logger - Server: cloudflare
+14:53:42.986 INFO  request logger - Vary: Accept-Encoding
+14:53:42.986 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:53:42.986 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:53:42.986 INFO  request logger - endpoint-load-metrics: application_utilization:11,named_metrics.queue_depth:11
+14:53:42.986 INFO  request logger - sb-gateway-version: 1
+14:53:42.986 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:53:42.986 INFO  request logger - sb-request-id: 01a0629c-829f-7b5d-b5c6-a4569f16302b
+14:53:42.986 INFO  request logger - x-deno-execution-id: d3e3e0c7-604c-4db3-bc63-ea52675ea0f2
+14:53:42.986 INFO  request logger - x-sb-edge-region: us-west-1
+14:53:42.986 INFO  request logger - x-served-by: supabase-edge-runtime
+14:53:42.986 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:53:42.986 INFO  request logger - Set-Cookie: __cf_bm=VwQibSujYJkX9Txog79C7bvCZ_.Esfymbd72UVNMDFI-1788360819.3534336-1.0.1.1-8.e7V97TKwaRawjjZmgrM_zJPSTbisJgYYjVURlzUVIFWICK8MBTl_Mn1d_pmZjUzjRgPK39D9_E.tHWsGqj8owqC5rF5jL5gko0HbYUZ2_l.qNyK7XXKAPd.Wm3_H9l; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:23:42 GMT
+14:53:42.986 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:53:42.986 INFO  request logger - {"transactionId":"10","balance":53783328}
+14:53:42.986 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/refund
+14:53:42.988 INFO  runner - Test "/refund (round 3)" execution finished
+14:53:42.988 INFO  runner - Test "/balance (round 3 after refund)" execution started
+14:53:42.990 INFO  request logger - --> GET https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:53:42.990 INFO  request logger - Accept-Encoding: gzip
+14:53:42.990 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:53:42.990 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:53:42.990 INFO  request logger - --> END GET
+14:53:43.626 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:53:43.627 INFO  request logger - Date: Wed, 02 Sep 2026 14:53:43 GMT
+14:53:43.627 INFO  request logger - Content-Type: application/json
+14:53:43.627 INFO  request logger - Transfer-Encoding: chunked
+14:53:43.627 INFO  request logger - Connection: keep-alive
+14:53:43.627 INFO  request logger - CF-Ray: a34d5887ba08cd36-SJC
+14:53:43.627 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:53:43.627 INFO  request logger - Access-Control-Allow-Origin: *
+14:53:43.627 INFO  request logger - Content-Encoding: gzip
+14:53:43.627 INFO  request logger - Server: cloudflare
+14:53:43.627 INFO  request logger - Vary: Accept-Encoding
+14:53:43.627 INFO  request logger - X-Content-Type-Options: nosniff
+14:53:43.627 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:53:43.627 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:53:43.627 INFO  request logger - endpoint-load-metrics: application_utilization:11,named_metrics.queue_depth:11
+14:53:43.627 INFO  request logger - sb-gateway-version: 1
+14:53:43.627 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:53:43.627 INFO  request logger - sb-request-id: 01a0629c-90d5-7f58-9fb8-83deb04dcfc3
+14:53:43.627 INFO  request logger - x-deno-execution-id: 4de68291-8b81-40e0-8c39-59be4d55ed00
+14:53:43.627 INFO  request logger - x-sb-edge-region: us-west-1
+14:53:43.627 INFO  request logger - x-served-by: supabase-edge-runtime
+14:53:43.627 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:53:43.628 INFO  request logger - Set-Cookie: __cf_bm=nO8gh0_zJd3g4D0Qsr5398T_mb4BbeJOX1jKWzbv3aE-1788360822.9927385-1.0.1.1-QBlAJWH8dpKNxcHoir6J7jkizd6lfkkBn6I1t5mX8YuNT_aPLrrNjzEoUrGdhPwc_.eQ.qN9DzUAaVEbAsX.iKjc5x17HoxHCeC5o5TLAcHZofEPgb9dVf0enwEaPy7m; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:23:43 GMT
+14:53:43.628 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:53:43.628 INFO  request logger - {"balance":53783328}
+14:53:43.628 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:53:43.629 INFO  runner - Test "/balance (round 3 after refund)" execution finished
+14:53:43.630 INFO  runner - Test "/refund (round 3 duplicate)" execution started
+14:53:43.631 INFO  request logger - --> POST https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/refund
+14:53:43.631 INFO  request logger - Accept-Encoding: gzip
+14:53:43.631 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:53:43.631 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:53:43.631 INFO  request logger - Content-Type: application/x-www-form-urlencoded
+14:53:43.631 INFO  request logger - Content-Length: 233
+14:53:43.631 INFO  request logger - player=869DF4608D784DA6AA2F76D297F2D9E4&game=endorphina_TheEmirate%40ENDORPHINA&currency=USD&id=1788360795353&amount=500&gameId=3&date=1788360819350&token=d1fe901b577f459abc0b2298a1f9f1dd&sign=d575aed8b3474b6ea612f003c1847c4c3e2caaad
+14:53:43.631 INFO  request logger - --> END POST
+14:53:43.998 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/refund
+14:53:43.999 INFO  request logger - Date: Wed, 02 Sep 2026 14:53:43 GMT
+14:53:43.999 INFO  request logger - Content-Type: application/json
+14:53:43.999 INFO  request logger - Content-Length: 61
+14:53:43.999 INFO  request logger - Connection: keep-alive
+14:53:43.999 INFO  request logger - CF-Ray: a34d588bb82bcd36-SJC
+14:53:43.999 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:53:43.999 INFO  request logger - Access-Control-Allow-Origin: *
+14:53:43.999 INFO  request logger - Content-Encoding: gzip
+14:53:43.999 INFO  request logger - Server: cloudflare
+14:53:43.999 INFO  request logger - Vary: Accept-Encoding
+14:53:43.999 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:53:43.999 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:53:43.999 INFO  request logger - endpoint-load-metrics: application_utilization:12,named_metrics.queue_depth:12
+14:53:43.999 INFO  request logger - sb-gateway-version: 1
+14:53:43.999 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:53:43.999 INFO  request logger - sb-request-id: 01a0629c-9358-7c1b-a213-185cc8d26edd
+14:53:43.999 INFO  request logger - x-deno-execution-id: 4f86e3a8-2c70-4d3a-a8b7-b258e2ebab48
+14:53:43.999 INFO  request logger - x-sb-edge-region: us-west-1
+14:53:43.999 INFO  request logger - x-served-by: supabase-edge-runtime
+14:53:43.999 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:53:43.999 INFO  request logger - Set-Cookie: __cf_bm=Vw2OaMDFlYtQqHJTC9TM73bVpN394d0Uj8Kmc4JY0gQ-1788360823.6339905-1.0.1.1-FqekFp90gK5e35zu9GBiLu_rhrMb28ODmlw8Vu3E2Q1bd2.H_n7kvO3seo44fRur2XqhPXJiUqjYS0QF2roYlR3qZX.A8ut2bQHkOFnUkB2jCzTvWd_MrS.fZwOsLfic; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:23:43 GMT
+14:53:43.999 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:53:44.000 INFO  request logger - {"transactionId":"10","balance":53783328}
+14:53:44.000 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/refund
+14:53:44.001 INFO  runner - Test "/refund (round 3 duplicate)" execution finished
+14:53:44.001 INFO  runner - Test "/balance (round 3 after duplicated refund)" execution started
+14:53:44.002 INFO  request logger - --> GET https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:53:44.002 INFO  request logger - Accept-Encoding: gzip
+14:53:44.002 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:53:44.002 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:53:44.003 INFO  request logger - --> END GET
+14:53:45.409 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:53:45.410 INFO  request logger - Date: Wed, 02 Sep 2026 14:53:45 GMT
+14:53:45.410 INFO  request logger - Content-Type: application/json
+14:53:45.410 INFO  request logger - Transfer-Encoding: chunked
+14:53:45.410 INFO  request logger - Connection: keep-alive
+14:53:45.410 INFO  request logger - CF-Ray: a34d588e082dcd36-SJC
+14:53:45.410 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:53:45.410 INFO  request logger - Access-Control-Allow-Origin: *
+14:53:45.410 INFO  request logger - Content-Encoding: gzip
+14:53:45.410 INFO  request logger - Server: cloudflare
+14:53:45.410 INFO  request logger - Vary: Accept-Encoding
+14:53:45.410 INFO  request logger - X-Content-Type-Options: nosniff
+14:53:45.410 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:53:45.410 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:53:45.410 INFO  request logger - endpoint-load-metrics: application_utilization:12,named_metrics.queue_depth:12
+14:53:45.410 INFO  request logger - sb-gateway-version: 1
+14:53:45.410 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:53:45.410 INFO  request logger - sb-request-id: 01a0629c-94cd-774a-9ee2-7e3083dc6783
+14:53:45.410 INFO  request logger - x-deno-execution-id: c36ec49c-4983-43db-a6a4-725c8de920d3
+14:53:45.410 INFO  request logger - x-sb-edge-region: us-west-1
+14:53:45.410 INFO  request logger - x-served-by: supabase-edge-runtime
+14:53:45.410 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:53:45.410 INFO  request logger - Set-Cookie: __cf_bm=qSCDcC71rBF.jUpizyiAC6YPpH84fsxt3m4CdJulk60-1788360824.0085976-1.0.1.1-mL4GsOdax4Z9cu5TAmXLUP24y_jBtgdh1pyHE6QOujQRuXneE7M2m5WKQB8MHoWsqnw683WhBtAjGriLhxPcqhaYX.dgNuRlz48O6AS4nvUfpDJGuPYOpIVCordnUGBn; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:23:45 GMT
+14:53:45.410 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:53:45.411 INFO  request logger - {"balance":53783328}
+14:53:45.411 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:53:45.412 INFO  runner - Test "/balance (round 3 after duplicated refund)" execution finished
+14:53:45.412 INFO  runner - Test "/bet (round 4)" execution started
+14:53:45.413 INFO  request logger - --> POST https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:53:45.413 INFO  request logger - Accept-Encoding: gzip
+14:53:45.413 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:53:45.413 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:53:45.413 INFO  request logger - Content-Type: application/x-www-form-urlencoded
+14:53:45.413 INFO  request logger - Content-Length: 234
+14:53:45.414 INFO  request logger - player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate%40ENDORPHINA&id=1788360795354&amount=5000&gameId=4&date=1788360825413&token=d1fe901b577f459abc0b2298a1f9f1dd&sign=9965e6bdf09be3f8be943e9fedb586253410e783
+14:53:45.414 INFO  request logger - --> END POST
+14:53:47.223 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:53:47.224 INFO  request logger - Date: Wed, 02 Sep 2026 14:53:47 GMT
+14:53:47.224 INFO  request logger - Content-Type: application/json
+14:53:47.224 INFO  request logger - Content-Length: 61
+14:53:47.224 INFO  request logger - Connection: keep-alive
+14:53:47.224 INFO  request logger - CF-Ray: a34d5896de56cd36-SJC
+14:53:47.224 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:53:47.224 INFO  request logger - Access-Control-Allow-Origin: *
+14:53:47.224 INFO  request logger - Content-Encoding: gzip
+14:53:47.224 INFO  request logger - Server: cloudflare
+14:53:47.224 INFO  request logger - Vary: Accept-Encoding
+14:53:47.224 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:53:47.224 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:53:47.224 INFO  request logger - endpoint-load-metrics: application_utilization:12,named_metrics.queue_depth:12
+14:53:47.224 INFO  request logger - sb-gateway-version: 1
+14:53:47.224 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:53:47.224 INFO  request logger - sb-request-id: 01a0629c-9a4d-7d09-8232-b3b06459e4a6
+14:53:47.224 INFO  request logger - x-deno-execution-id: 2ce4bd1e-210d-45ec-9132-cabd786dbe3e
+14:53:47.224 INFO  request logger - x-sb-edge-region: us-west-1
+14:53:47.224 INFO  request logger - x-served-by: supabase-edge-runtime
+14:53:47.224 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:53:47.224 INFO  request logger - Set-Cookie: __cf_bm=b5NlSHXEhs5RO5x9_kf7t5nKDYY2Ot4Y9V3asiGikZM-1788360825.4162776-1.0.1.1-R4f3S_jLifyTyuBrRtIsAXNjAq_JGyE9Ak3EQDa586ko0bJJkJRvl39n6VE2Fe4X8f0NzHUAh83sBdr6wN3dLKxIrzUwYdHMlw5S5HRD_CUa9cr_6ZEv2Ok5Ca7MeZTm; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:23:47 GMT
+14:53:47.224 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:53:47.224 INFO  request logger - {"transactionId":"11","balance":53778328}
+14:53:47.224 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:53:47.226 INFO  runner - Test "/bet (round 4)" execution finished
+14:53:47.226 INFO  runner - Test "/win (round 4)" execution started
+14:53:47.227 INFO  request logger - --> POST https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/win
+14:53:47.227 INFO  request logger - Accept-Encoding: gzip
+14:53:47.227 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:53:47.227 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:53:47.227 INFO  request logger - Content-Type: application/x-www-form-urlencoded
+14:53:47.227 INFO  request logger - Content-Length: 312
+14:53:47.227 INFO  request logger - player=869DF4608D784DA6AA2F76D297F2D9E4&game=endorphina_TheEmirate%40ENDORPHINA&currency=USD&betSessionId=d1fe901b577f459abc0b2298a1f9f1dd&betTransactionId=1788360795354&id=1788360795355&amount=50000&gameId=4&date=1788360827226&token=d1fe901b577f459abc0b2298a1f9f1dd&sign=6fa339bc132ff13461a715aa5b3e22ce37238384
+14:53:47.227 INFO  request logger - --> END POST
+14:53:50.682 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/win
+14:53:50.682 INFO  request logger - Date: Wed, 02 Sep 2026 14:53:50 GMT
+14:53:50.682 INFO  request logger - Content-Type: application/json
+14:53:50.682 INFO  request logger - Content-Length: 61
+14:53:50.682 INFO  request logger - Connection: keep-alive
+14:53:50.682 INFO  request logger - CF-Ray: a34d58a22d0ccd36-SJC
+14:53:50.682 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:53:50.682 INFO  request logger - Access-Control-Allow-Origin: *
+14:53:50.682 INFO  request logger - Content-Encoding: gzip
+14:53:50.682 INFO  request logger - Server: cloudflare
+14:53:50.682 INFO  request logger - Vary: Accept-Encoding
+14:53:50.682 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:53:50.682 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:53:50.683 INFO  request logger - endpoint-load-metrics: application_utilization:12,named_metrics.queue_depth:12
+14:53:50.683 INFO  request logger - sb-gateway-version: 1
+14:53:50.683 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:53:50.683 INFO  request logger - sb-request-id: 01a0629c-a162-7be0-9f41-4212379704cc
+14:53:50.683 INFO  request logger - x-deno-execution-id: 66a42865-9260-4dcd-8cba-33c5f9e3d19f
+14:53:50.683 INFO  request logger - x-sb-edge-region: us-west-1
+14:53:50.683 INFO  request logger - x-served-by: supabase-edge-runtime
+14:53:50.683 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:53:50.683 INFO  request logger - Set-Cookie: __cf_bm=4txZkAnFE8pcGIPV4jcWmmqwQC9MBEeYQxdWbjgzEYI-1788360827.2297196-1.0.1.1-R_Yk2nv8Kwa1nBTo6.tNblL3ZDoopD9Qbph9ipLPXZ6aMEUX23qaX8OK1BbD4VXOs1OCptaOYQ1LmrqrB4Syyaw72H0reTAcA6h7BFbPzElKJQsRkwWVKo9yzZjiy_fl; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:23:50 GMT
+14:53:50.683 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:53:50.683 INFO  request logger - {"transactionId":"12","balance":53828328}
+14:53:50.683 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/win
+14:53:50.684 INFO  runner - Test "/win (round 4)" execution finished
+14:53:50.684 INFO  runner - Test "/win (round 4 duplicate)" execution started
+14:53:50.685 INFO  request logger - --> POST https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/win
+14:53:50.685 INFO  request logger - Accept-Encoding: gzip
+14:53:50.685 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:53:50.685 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:53:50.685 INFO  request logger - Content-Type: application/x-www-form-urlencoded
+14:53:50.685 INFO  request logger - Content-Length: 312
+14:53:50.686 INFO  request logger - player=869DF4608D784DA6AA2F76D297F2D9E4&game=endorphina_TheEmirate%40ENDORPHINA&currency=USD&betSessionId=d1fe901b577f459abc0b2298a1f9f1dd&betTransactionId=1788360795354&id=1788360795355&amount=50000&gameId=4&date=1788360827226&token=d1fe901b577f459abc0b2298a1f9f1dd&sign=6fa339bc132ff13461a715aa5b3e22ce37238384
+14:53:50.686 INFO  request logger - --> END POST
+14:53:51.283 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/win
+14:53:51.284 INFO  request logger - Date: Wed, 02 Sep 2026 14:53:51 GMT
+14:53:51.284 INFO  request logger - Content-Type: application/json
+14:53:51.284 INFO  request logger - Content-Length: 61
+14:53:51.284 INFO  request logger - Connection: keep-alive
+14:53:51.284 INFO  request logger - CF-Ray: a34d58b7cf85cd36-SJC
+14:53:51.284 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:53:51.284 INFO  request logger - Access-Control-Allow-Origin: *
+14:53:51.284 INFO  request logger - Content-Encoding: gzip
+14:53:51.284 INFO  request logger - Server: cloudflare
+14:53:51.284 INFO  request logger - Vary: Accept-Encoding
+14:53:51.284 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:53:51.284 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:53:51.284 INFO  request logger - endpoint-load-metrics: application_utilization:12,named_metrics.queue_depth:12
+14:53:51.284 INFO  request logger - sb-gateway-version: 1
+14:53:51.284 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:53:51.284 INFO  request logger - sb-request-id: 01a0629c-aee4-7fa7-9e59-29765bbfd58a
+14:53:51.284 INFO  request logger - x-deno-execution-id: 3414959a-a508-4b74-a511-acc9d715db42
+14:53:51.284 INFO  request logger - x-sb-edge-region: us-west-1
+14:53:51.284 INFO  request logger - x-served-by: supabase-edge-runtime
+14:53:51.284 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:53:51.284 INFO  request logger - Set-Cookie: __cf_bm=5_mLwhZKrApb9nhxcvToQZXLxKT.0XqIdHrKyu4HIgY-1788360830.6881156-1.0.1.1-7_Phr.mIrOXuAOaD9VfN4KMenXvH4b59wgyb8qyYCDAqVxUeUgCK7KfdZChPoiAv6Tro7lzHYZPsc.ToIhFcq51mPmB5W_RNH_n5EP5Vm9iomBCpipwRIezlZsCVmneg; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:23:51 GMT
+14:53:51.284 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:53:51.285 INFO  request logger - {"transactionId":"12","balance":53828328}
+14:53:51.285 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/win
+14:53:51.286 INFO  runner - Test "/win (round 4 duplicate)" execution finished
+14:53:51.286 INFO  runner - Test "/balance (round 4 after duplicated win)" execution started
+14:53:51.286 INFO  request logger - --> GET https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:53:51.287 INFO  request logger - Accept-Encoding: gzip
+14:53:51.287 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:53:51.287 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:53:51.287 INFO  request logger - --> END GET
+14:53:51.937 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:53:51.938 INFO  request logger - Date: Wed, 02 Sep 2026 14:53:51 GMT
+14:53:51.938 INFO  request logger - Content-Type: application/json
+14:53:51.938 INFO  request logger - Transfer-Encoding: chunked
+14:53:51.938 INFO  request logger - Connection: keep-alive
+14:53:51.938 INFO  request logger - CF-Ray: a34d58bb8cbccd36-SJC
+14:53:51.938 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:53:51.938 INFO  request logger - Access-Control-Allow-Origin: *
+14:53:51.938 INFO  request logger - Content-Encoding: gzip
+14:53:51.938 INFO  request logger - Server: cloudflare
+14:53:51.938 INFO  request logger - Vary: Accept-Encoding
+14:53:51.938 INFO  request logger - X-Content-Type-Options: nosniff
+14:53:51.938 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:53:51.938 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:53:51.938 INFO  request logger - endpoint-load-metrics: application_utilization:12,named_metrics.queue_depth:12
+14:53:51.938 INFO  request logger - sb-gateway-version: 1
+14:53:51.938 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:53:51.938 INFO  request logger - sb-request-id: 01a0629c-b13c-7d99-bc5f-a7fe2670b550
+14:53:51.938 INFO  request logger - x-deno-execution-id: 7deb17cd-5c27-480a-84b8-994f76918f6e
+14:53:51.938 INFO  request logger - x-sb-edge-region: us-west-1
+14:53:51.938 INFO  request logger - x-served-by: supabase-edge-runtime
+14:53:51.938 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:53:51.938 INFO  request logger - Set-Cookie: __cf_bm=UVSqwmUHYYK8W5uujo4rCztL_QOgQ__hZxVrRl65jJA-1788360831.289014-1.0.1.1-ZJmzKR72oRshUybaNZ8FkB8n1psTJzwhavTXMnds1RPl9M95qamLcBog8aXm_LBmu2zXKMKIjLD4w4Aa7LMTNkNHFlAswXWr..LnuX687xKv64DZ2BdkZZcicCw4z4_R; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:23:51 GMT
+14:53:51.938 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:53:51.938 INFO  request logger - {"balance":53828328}
+14:53:51.938 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:53:51.940 INFO  runner - Test "/balance (round 4 after duplicated win)" execution finished
+14:53:51.940 INFO  runner - Test "/bet (round 5)" execution started
+14:53:51.940 INFO  request logger - --> POST https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:53:51.940 INFO  request logger - Accept-Encoding: gzip
+14:53:51.940 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:53:51.940 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:53:51.940 INFO  request logger - Content-Type: application/x-www-form-urlencoded
+14:53:51.940 INFO  request logger - Content-Length: 235
+14:53:51.941 INFO  request logger - player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate%40ENDORPHINA&id=1788360795356&amount=50000&gameId=5&date=1788360831940&token=d1fe901b577f459abc0b2298a1f9f1dd&sign=665129620a0dec6a5bcb0c700a87136c14eca04e
+14:53:51.941 INFO  request logger - --> END POST
+14:53:53.755 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:53:53.756 INFO  request logger - Date: Wed, 02 Sep 2026 14:53:53 GMT
+14:53:53.756 INFO  request logger - Content-Type: application/json
+14:53:53.756 INFO  request logger - Content-Length: 61
+14:53:53.756 INFO  request logger - Connection: keep-alive
+14:53:53.756 INFO  request logger - CF-Ray: a34d58bfaad5cd36-SJC
+14:53:53.756 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:53:53.756 INFO  request logger - Access-Control-Allow-Origin: *
+14:53:53.756 INFO  request logger - Content-Encoding: gzip
+14:53:53.756 INFO  request logger - Server: cloudflare
+14:53:53.756 INFO  request logger - Vary: Accept-Encoding
+14:53:53.756 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:53:53.756 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:53:53.756 INFO  request logger - endpoint-load-metrics: application_utilization:10,named_metrics.queue_depth:10
+14:53:53.756 INFO  request logger - sb-gateway-version: 1
+14:53:53.756 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:53:53.756 INFO  request logger - sb-request-id: 01a0629c-b3cd-7424-b124-2ffcf161c85a
+14:53:53.756 INFO  request logger - x-deno-execution-id: 5073a829-a460-4530-87fe-9a81e7abb469
+14:53:53.756 INFO  request logger - x-sb-edge-region: us-west-1
+14:53:53.756 INFO  request logger - x-served-by: supabase-edge-runtime
+14:53:53.756 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:53:53.756 INFO  request logger - Set-Cookie: __cf_bm=_bVFyjYLm7_l5uNf80FeWNPh_E.TJu6f_GRiFv5I2bQ-1788360831.9431205-1.0.1.1-X2RbHXpq7MlFV1iuUrAZ1kwwS84XsN4couepuCxIbzy.OaH3hIAekMw4H558T6SLreuOouKC3YE4D9Cbd4_cEh8zx5GhVJ8TYJ0kV3LaVKWvzcEaCXAZRk4JSbdHa2je; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:23:53 GMT
+14:53:53.756 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:53:53.757 INFO  request logger - {"transactionId":"13","balance":53778328}
+14:53:53.757 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:53:53.758 INFO  runner - Test "/bet (round 5)" execution finished
+14:53:53.758 INFO  runner - Test "/win with jackpot (round 5)" execution started
+14:53:53.763 INFO  runner - Test skipped with reason: Disabled by node properties
+14:53:53.764 INFO  runner - Test "/win with jackpot (round 5)" execution finished
+14:53:53.764 INFO  runner - Test "/balance (round 5 after jackpot win)" execution started
+14:53:53.765 INFO  runner - Test skipped with reason: Disabled by node properties
+14:53:53.766 INFO  runner - Test "/balance (round 5 after jackpot win)" execution finished
+14:53:53.766 INFO  runner - Test "/win with jackpot (round 5 duplicate)" execution started
+14:53:53.767 INFO  runner - Test skipped with reason: Disabled by node properties
+14:53:53.767 INFO  runner - Test "/win with jackpot (round 5 duplicate)" execution finished
+14:53:53.767 INFO  runner - Test "/win (round 5 zero win)" execution started
+14:53:53.768 INFO  request logger - --> POST https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/win
+14:53:53.768 INFO  request logger - Accept-Encoding: gzip
+14:53:53.768 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:53:53.768 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:53:53.768 INFO  request logger - Content-Type: application/x-www-form-urlencoded
+14:53:53.768 INFO  request logger - Content-Length: 291
+14:53:53.769 INFO  request logger - player=869DF4608D784DA6AA2F76D297F2D9E4&game=endorphina_TheEmirate%40ENDORPHINA&currency=USD&betSessionId=d1fe901b577f459abc0b2298a1f9f1dd&betTransactionId=1788360795356&amount=0&gameId=5&date=1788360833767&token=d1fe901b577f459abc0b2298a1f9f1dd&sign=9446b7d57247ef6e36515f5f3f50a12ab38be3d6
+14:53:53.769 INFO  request logger - --> END POST
+14:53:54.918 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/win
+14:53:54.919 INFO  request logger - Date: Wed, 02 Sep 2026 14:53:54 GMT
+14:53:54.919 INFO  request logger - Content-Type: application/json
+14:53:54.919 INFO  request logger - Content-Length: 73
+14:53:54.919 INFO  request logger - Connection: keep-alive
+14:53:54.919 INFO  request logger - CF-Ray: a34d58cb0b7acd36-SJC
+14:53:54.919 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:53:54.919 INFO  request logger - Access-Control-Allow-Origin: *
+14:53:54.919 INFO  request logger - Content-Encoding: gzip
+14:53:54.919 INFO  request logger - Server: cloudflare
+14:53:54.919 INFO  request logger - Vary: Accept-Encoding
+14:53:54.919 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:53:54.919 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:53:54.919 INFO  request logger - endpoint-load-metrics: application_utilization:11,named_metrics.queue_depth:11
+14:53:54.919 INFO  request logger - sb-gateway-version: 1
+14:53:54.919 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:53:54.919 INFO  request logger - sb-request-id: 01a0629c-baf1-7f55-8310-8bccf5acdb22
+14:53:54.919 INFO  request logger - x-deno-execution-id: bb7be498-bc56-425f-b5c4-31aa00148c6b
+14:53:54.919 INFO  request logger - x-sb-edge-region: us-west-1
+14:53:54.919 INFO  request logger - x-served-by: supabase-edge-runtime
+14:53:54.919 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:53:54.919 INFO  request logger - Set-Cookie: __cf_bm=z6U7Ci8lKV.jUauUuhj56XetgzCj4hsaVG5dyRdF9Kw-1788360833.7728121-1.0.1.1-_4qhktGkT8h9xI3Db6PqKf7Y7EZguhO5sn5Iv5cbMXpGtEOv1QHqIqTSIILKudwD4COowCJa.mnZCa07QQBenncR3C4UC73Mrpjeqdd5Zqycrx8vkI5u9wWhluh8d85M; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:23:54 GMT
+14:53:54.919 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:53:54.920 INFO  request logger - {"transactionId":"Z1788360834675","balance":53778328}
+14:53:54.920 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/win
+14:53:54.921 INFO  runner - Test "/win (round 5 zero win)" execution finished
+14:53:54.921 INFO  runner - Test "/balance (round 5 after duplicated jackpot win)" execution started
+14:53:54.922 INFO  request logger - --> GET https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:53:54.922 INFO  request logger - Accept-Encoding: gzip
+14:53:54.922 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:53:54.922 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:53:54.922 INFO  request logger - --> END GET
+14:53:56.286 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:53:56.287 INFO  request logger - Date: Wed, 02 Sep 2026 14:53:56 GMT
+14:53:56.287 INFO  request logger - Content-Type: application/json
+14:53:56.287 INFO  request logger - Transfer-Encoding: chunked
+14:53:56.287 INFO  request logger - Connection: keep-alive
+14:53:56.287 INFO  request logger - CF-Ray: a34d58d24d84cd36-SJC
+14:53:56.287 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:53:56.287 INFO  request logger - Access-Control-Allow-Origin: *
+14:53:56.287 INFO  request logger - Content-Encoding: gzip
+14:53:56.287 INFO  request logger - Server: cloudflare
+14:53:56.287 INFO  request logger - Vary: Accept-Encoding
+14:53:56.287 INFO  request logger - X-Content-Type-Options: nosniff
+14:53:56.287 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:53:56.287 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:53:56.287 INFO  request logger - endpoint-load-metrics: application_utilization:12,named_metrics.queue_depth:12
+14:53:56.287 INFO  request logger - sb-gateway-version: 1
+14:53:56.287 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:53:56.287 INFO  request logger - sb-request-id: 01a0629c-bf70-72cc-98a6-719de0c003b6
+14:53:56.287 INFO  request logger - x-deno-execution-id: 3f635684-2a92-4305-8024-eb99a830e1da
+14:53:56.287 INFO  request logger - x-sb-edge-region: us-west-1
+14:53:56.287 INFO  request logger - x-served-by: supabase-edge-runtime
+14:53:56.287 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:53:56.287 INFO  request logger - Set-Cookie: __cf_bm=Pt9PQnn6GXWI2rYiSRw84uuuKFIJx69WnHvkc7bG3Xo-1788360834.9243739-1.0.1.1-saFOcWPG5JxGSzjp_PpvuROWvyAZxAKiaHe0DpBnFyk3areI0IQTcWXFCgCqj0aG9judVgIwX3w4N7LJxBgDV0RToHyuldB4Od9t1WnA4r.zNKNYyIgF.0GA.TPo4ZGJ; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:23:56 GMT
+14:53:56.287 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:53:56.287 INFO  request logger - {"balance":53778328}
+14:53:56.288 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:53:56.289 INFO  runner - Test "/balance (round 5 after duplicated jackpot win)" execution finished
+14:53:56.289 INFO  runner - Test "/bet (round 6)" execution started
+14:53:56.290 INFO  request logger - --> POST https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:53:56.290 INFO  request logger - Accept-Encoding: gzip
+14:53:56.290 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:53:56.290 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:53:56.290 INFO  request logger - Content-Type: application/x-www-form-urlencoded
+14:53:56.290 INFO  request logger - Content-Length: 232
+14:53:56.290 INFO  request logger - player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate%40ENDORPHINA&id=1788360795357&amount=10&gameId=6&date=1788360836289&token=d1fe901b577f459abc0b2298a1f9f1dd&sign=179bdf2f73515824daec395c000e95530c12b334
+14:53:56.290 INFO  request logger - --> END POST
+14:53:58.137 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:53:58.137 INFO  request logger - Date: Wed, 02 Sep 2026 14:53:58 GMT
+14:53:58.137 INFO  request logger - Content-Type: application/json
+14:53:58.137 INFO  request logger - Content-Length: 61
+14:53:58.137 INFO  request logger - Connection: keep-alive
+14:53:58.137 INFO  request logger - CF-Ray: a34d58dadc43cd36-SJC
+14:53:58.137 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:53:58.137 INFO  request logger - Access-Control-Allow-Origin: *
+14:53:58.137 INFO  request logger - Content-Encoding: gzip
+14:53:58.137 INFO  request logger - Server: cloudflare
+14:53:58.137 INFO  request logger - Vary: Accept-Encoding
+14:53:58.137 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:53:58.137 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:53:58.137 INFO  request logger - endpoint-load-metrics: application_utilization:11,named_metrics.queue_depth:11
+14:53:58.137 INFO  request logger - sb-gateway-version: 1
+14:53:58.137 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:53:58.137 INFO  request logger - sb-request-id: 01a0629c-c4ca-7e6d-b68b-ba11db4b3295
+14:53:58.137 INFO  request logger - x-deno-execution-id: 27cb26e9-e990-433e-b748-49ca75831f86
+14:53:58.137 INFO  request logger - x-sb-edge-region: us-west-1
+14:53:58.137 INFO  request logger - x-served-by: supabase-edge-runtime
+14:53:58.137 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:53:58.137 INFO  request logger - Set-Cookie: __cf_bm=VAXhPgqhrQ04upsx5gmUjAnCm_bjfbLkkzVocn9WlMM-1788360836.2927504-1.0.1.1-T5Vy2B8jB6kNagrSnjlyonpzUpmRi6FDai_Ck7USzZta.JdLDjTuGyApegF7ONyzf5PRM_UPTPSKbSgNqsjXQ0U9Edx_ck.GsnLDR9Yu4cDwg965tGvL_.4AGi3k77ms; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:23:58 GMT
+14:53:58.137 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:53:58.138 INFO  request logger - {"transactionId":"14","balance":53778318}
+14:53:58.138 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:53:58.139 INFO  runner - Test "/bet (round 6)" execution finished
+14:53:58.139 INFO  runner - Test "/win with jackpot (round 6)" execution started
+14:53:58.140 INFO  runner - Test skipped with reason: Disabled by node properties
+14:53:58.140 INFO  runner - Test "/win with jackpot (round 6)" execution finished
+14:53:58.140 INFO  runner - Test "/win (round 6)" execution started
+14:53:58.141 INFO  request logger - --> POST https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/win
+14:53:58.141 INFO  request logger - Accept-Encoding: gzip
+14:53:58.141 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:53:58.141 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:53:58.141 INFO  request logger - Content-Type: application/x-www-form-urlencoded
+14:53:58.141 INFO  request logger - Content-Length: 310
+14:53:58.141 INFO  request logger - player=869DF4608D784DA6AA2F76D297F2D9E4&game=endorphina_TheEmirate%40ENDORPHINA&currency=USD&betSessionId=d1fe901b577f459abc0b2298a1f9f1dd&betTransactionId=1788360795357&id=1788360795358&amount=100&gameId=6&date=1788360838140&token=d1fe901b577f459abc0b2298a1f9f1dd&sign=8f29a8b7d6a5368a938fa70fdd59c8ece7649acb
+14:53:58.141 INFO  request logger - --> END POST
+14:54:00.359 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/win
+14:54:00.360 INFO  request logger - Date: Wed, 02 Sep 2026 14:54:00 GMT
+14:54:00.360 INFO  request logger - Content-Type: application/json
+14:54:00.360 INFO  request logger - Content-Length: 61
+14:54:00.360 INFO  request logger - Connection: keep-alive
+14:54:00.360 INFO  request logger - CF-Ray: a34d58e66e34cd36-SJC
+14:54:00.360 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:54:00.360 INFO  request logger - Access-Control-Allow-Origin: *
+14:54:00.360 INFO  request logger - Content-Encoding: gzip
+14:54:00.360 INFO  request logger - Server: cloudflare
+14:54:00.360 INFO  request logger - Vary: Accept-Encoding
+14:54:00.360 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:54:00.360 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:54:00.360 INFO  request logger - endpoint-load-metrics: application_utilization:12,named_metrics.queue_depth:12
+14:54:00.360 INFO  request logger - sb-gateway-version: 1
+14:54:00.360 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:54:00.360 INFO  request logger - sb-request-id: 01a0629c-cc03-724c-9d74-8d6aa4aa3a77
+14:54:00.360 INFO  request logger - x-deno-execution-id: 8f44b627-1ed2-41c0-8060-d0996375cf37
+14:54:00.360 INFO  request logger - x-sb-edge-region: us-west-1
+14:54:00.360 INFO  request logger - x-served-by: supabase-edge-runtime
+14:54:00.360 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:54:00.360 INFO  request logger - Set-Cookie: __cf_bm=D.aOZmkrdmkpMI7lrXwqfPlv9a5Q1Yq3d4x8w_F0d4Y-1788360838.1430297-1.0.1.1-LQzr_jpdnQfvpMJaopHIsGlD2DzUaMx5UUPw37x3FH0YwgsJlLTJmuHFvrRnj2TThxcVJJ1Jnp93sc4Y1vOE8WR6G_IiXtKeGgYGAbpjcMQ0NNxI9jm8Dp_XDCQGPPWZ; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:24:00 GMT
+14:54:00.360 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:54:00.360 INFO  request logger - {"transactionId":"15","balance":53778418}
+14:54:00.360 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/win
+14:54:00.361 INFO  runner - Test "/win (round 6)" execution finished
+14:54:00.362 INFO  runner - Test "/balance (round 6)" execution started
+14:54:00.362 INFO  request logger - --> GET https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:54:00.362 INFO  request logger - Accept-Encoding: gzip
+14:54:00.362 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:54:00.362 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:54:00.363 INFO  request logger - --> END GET
+14:54:01.081 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:54:01.082 INFO  request logger - Date: Wed, 02 Sep 2026 14:54:01 GMT
+14:54:01.082 INFO  request logger - Content-Type: application/json
+14:54:01.082 INFO  request logger - Transfer-Encoding: chunked
+14:54:01.082 INFO  request logger - Connection: keep-alive
+14:54:01.082 INFO  request logger - CF-Ray: a34d58f44c52cd36-SJC
+14:54:01.082 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:54:01.082 INFO  request logger - Access-Control-Allow-Origin: *
+14:54:01.082 INFO  request logger - Content-Encoding: gzip
+14:54:01.082 INFO  request logger - Server: cloudflare
+14:54:01.082 INFO  request logger - Vary: Accept-Encoding
+14:54:01.082 INFO  request logger - X-Content-Type-Options: nosniff
+14:54:01.082 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:54:01.082 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:54:01.082 INFO  request logger - endpoint-load-metrics: application_utilization:10,named_metrics.queue_depth:10
+14:54:01.082 INFO  request logger - sb-gateway-version: 1
+14:54:01.082 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:54:01.082 INFO  request logger - sb-request-id: 01a0629c-d4b0-7111-a98e-84ac6e96b576
+14:54:01.082 INFO  request logger - x-deno-execution-id: ccdc6052-9e98-41a6-8557-4aaf6b9c357a
+14:54:01.082 INFO  request logger - x-sb-edge-region: us-west-1
+14:54:01.082 INFO  request logger - x-served-by: supabase-edge-runtime
+14:54:01.082 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:54:01.082 INFO  request logger - Set-Cookie: __cf_bm=udiGVLD4UjmEkYW6HfG.H2mBCs0TpDtMhltdqgECd5I-1788360840.36455-1.0.1.1-NTvIPwpezymCrsPbN9CVBxnkOTWkF5PEcOjqnQGrjgob4IWcToLNnBQmsezjvj.JAGbsHLil3T1qqXA9tjqU6BxwWw41J4BKTd6lcoC7.NijMjYdvgitbOb3t3VR8qF7; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:24:01 GMT
+14:54:01.082 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:54:01.082 INFO  request logger - {"balance":53778418}
+14:54:01.083 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:54:01.084 INFO  runner - Test "/balance (round 6)" execution finished
+14:54:01.084 INFO  runner - Test "/bet (round 7)" execution started
+14:54:01.085 INFO  request logger - --> POST https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:54:01.085 INFO  request logger - Accept-Encoding: gzip
+14:54:01.085 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:54:01.085 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:54:01.085 INFO  request logger - Content-Type: application/x-www-form-urlencoded
+14:54:01.085 INFO  request logger - Content-Length: 232
+14:54:01.086 INFO  request logger - player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate%40ENDORPHINA&id=1788360795359&amount=10&gameId=7&date=1788360841085&token=d1fe901b577f459abc0b2298a1f9f1dd&sign=5300a51f6c63dd04ebe852f88b8c96cd9f9dfed3
+14:54:01.086 INFO  request logger - --> END POST
+14:54:02.906 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:54:02.907 INFO  request logger - Date: Wed, 02 Sep 2026 14:54:02 GMT
+14:54:02.907 INFO  request logger - Content-Type: application/json
+14:54:02.907 INFO  request logger - Content-Length: 61
+14:54:02.907 INFO  request logger - Connection: keep-alive
+14:54:02.907 INFO  request logger - CF-Ray: a34d58f8cb57cd36-SJC
+14:54:02.907 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:54:02.907 INFO  request logger - Access-Control-Allow-Origin: *
+14:54:02.907 INFO  request logger - Content-Encoding: gzip
+14:54:02.907 INFO  request logger - Server: cloudflare
+14:54:02.907 INFO  request logger - Vary: Accept-Encoding
+14:54:02.907 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:54:02.907 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:54:02.907 INFO  request logger - endpoint-load-metrics: application_utilization:12,named_metrics.queue_depth:12
+14:54:02.907 INFO  request logger - sb-gateway-version: 1
+14:54:02.907 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:54:02.907 INFO  request logger - sb-request-id: 01a0629c-d784-7315-a01f-32606d0e7f89
+14:54:02.907 INFO  request logger - x-deno-execution-id: f007e5e6-25e8-46e1-8eb8-d3c1d09e7797
+14:54:02.907 INFO  request logger - x-sb-edge-region: us-west-1
+14:54:02.907 INFO  request logger - x-served-by: supabase-edge-runtime
+14:54:02.907 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:54:02.907 INFO  request logger - Set-Cookie: __cf_bm=HsZPVREGNVV4qU46kJr2wawAUX7wTC1pkk7jO6WCnzs-1788360841.0882697-1.0.1.1-lnnhVvTSriaMXRSVW3nnmoFccBgFfCg1XaAy0r0UguFtrCgrMmr57BfzL7ErHE5Zkq6YpMGFMNteerwzWQWRgXx4JPY1K_bboDvZrfLN1LnpjQnLZN_GD4p55LmmbtK.; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:24:02 GMT
+14:54:02.907 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:54:02.908 INFO  request logger - {"transactionId":"16","balance":53778408}
+14:54:02.908 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:54:02.909 INFO  runner - Test "/bet (round 7)" execution finished
+14:54:02.909 INFO  runner - Test "/bet (round 8)" execution started
+14:54:02.910 INFO  request logger - --> POST https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:54:02.910 INFO  request logger - Accept-Encoding: gzip
+14:54:02.910 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:54:02.910 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:54:02.910 INFO  request logger - Content-Type: application/x-www-form-urlencoded
+14:54:02.910 INFO  request logger - Content-Length: 232
+14:54:02.910 INFO  request logger - player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate%40ENDORPHINA&id=1788360795361&amount=10&gameId=8&date=1788360842909&token=d1fe901b577f459abc0b2298a1f9f1dd&sign=2a00f5d326868024c69c7ba5ce50d6586eaee260
+14:54:02.910 INFO  request logger - --> END POST
+14:54:05.187 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:54:05.188 INFO  request logger - Date: Wed, 02 Sep 2026 14:54:05 GMT
+14:54:05.188 INFO  request logger - Content-Type: application/json
+14:54:05.188 INFO  request logger - Content-Length: 61
+14:54:05.188 INFO  request logger - Connection: keep-alive
+14:54:05.188 INFO  request logger - CF-Ray: a34d59043ab9cd36-SJC
+14:54:05.188 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:54:05.188 INFO  request logger - Access-Control-Allow-Origin: *
+14:54:05.188 INFO  request logger - Content-Encoding: gzip
+14:54:05.188 INFO  request logger - Server: cloudflare
+14:54:05.188 INFO  request logger - Vary: Accept-Encoding
+14:54:05.188 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:54:05.188 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:54:05.188 INFO  request logger - endpoint-load-metrics: application_utilization:12,named_metrics.queue_depth:12
+14:54:05.188 INFO  request logger - sb-gateway-version: 1
+14:54:05.188 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:54:05.188 INFO  request logger - sb-request-id: 01a0629c-dea4-787b-801d-338dd5ce96ba
+14:54:05.188 INFO  request logger - x-deno-execution-id: 0d63265c-78d6-41d5-9b3a-a3a57d9943e5
+14:54:05.188 INFO  request logger - x-sb-edge-region: us-west-1
+14:54:05.188 INFO  request logger - x-served-by: supabase-edge-runtime
+14:54:05.188 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:54:05.188 INFO  request logger - Set-Cookie: __cf_bm=3O3rmdQeWzDHAKorjMNW0qtGXVC.CFrpsizrdVqZFVY-1788360842.9123695-1.0.1.1-.V3eC7FT5qMVD_UcSiutKLLi2Y0xHRfszcQTSYw.2E216bRXq8Ot8yXaZf6GVFflOzF5WogTctHqs5DVjYEs5gI4pL8e3w5ksZdikMl6vd9tfg8VqDROimsfthSpdwrc; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:24:05 GMT
+14:54:05.188 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:54:05.188 INFO  request logger - {"transactionId":"17","balance":53778398}
+14:54:05.188 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:54:05.189 INFO  runner - Test "/bet (round 8)" execution finished
+14:54:05.189 INFO  runner - Test "/win (round 7)" execution started
+14:54:05.190 INFO  request logger - --> POST https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/win
+14:54:05.190 INFO  request logger - Accept-Encoding: gzip
+14:54:05.190 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:54:05.190 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:54:05.190 INFO  request logger - Content-Type: application/x-www-form-urlencoded
+14:54:05.190 INFO  request logger - Content-Length: 310
+14:54:05.190 INFO  request logger - player=869DF4608D784DA6AA2F76D297F2D9E4&game=endorphina_TheEmirate%40ENDORPHINA&currency=USD&betSessionId=d1fe901b577f459abc0b2298a1f9f1dd&betTransactionId=1788360795359&id=1788360795360&amount=100&gameId=7&date=1788360845190&token=d1fe901b577f459abc0b2298a1f9f1dd&sign=a52af1a33c27495625fd0526869c6282c5039499
+14:54:05.190 INFO  request logger - --> END POST
+14:54:07.022 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/win
+14:54:07.023 INFO  request logger - Date: Wed, 02 Sep 2026 14:54:07 GMT
+14:54:07.023 INFO  request logger - Content-Type: application/json
+14:54:07.023 INFO  request logger - Content-Length: 61
+14:54:07.023 INFO  request logger - Connection: keep-alive
+14:54:07.023 INFO  request logger - CF-Ray: a34d59127dffcd36-SJC
+14:54:07.023 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:54:07.023 INFO  request logger - Access-Control-Allow-Origin: *
+14:54:07.023 INFO  request logger - Content-Encoding: gzip
+14:54:07.023 INFO  request logger - Server: cloudflare
+14:54:07.023 INFO  request logger - Vary: Accept-Encoding
+14:54:07.023 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:54:07.023 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:54:07.023 INFO  request logger - endpoint-load-metrics: application_utilization:11,named_metrics.queue_depth:11
+14:54:07.023 INFO  request logger - sb-gateway-version: 1
+14:54:07.023 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:54:07.023 INFO  request logger - sb-request-id: 01a0629c-e795-732d-80c0-91d4ff6252e3
+14:54:07.023 INFO  request logger - x-deno-execution-id: e19463c8-40b5-4d09-8a7a-57f864cb39bd
+14:54:07.023 INFO  request logger - x-sb-edge-region: us-west-1
+14:54:07.023 INFO  request logger - x-served-by: supabase-edge-runtime
+14:54:07.023 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:54:07.023 INFO  request logger - Set-Cookie: __cf_bm=e3ixAkIUpejRkWJfa08ZgpTWi6bXyl1Httyr8QwNbaY-1788360845.1941586-1.0.1.1-r0h3Eu3jRkLUOoapKKXvk9qTq1WNlReAvMiQrAHM9x8a_MEVbLlbveGFZaiwJc7zWATGPzQfe6zkb3oWO7C0_g5SAXQyuSR6a.we2n1HbV8WMsFigCA71GPD33gso4WQ; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:24:07 GMT
+14:54:07.023 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:54:07.024 INFO  request logger - {"transactionId":"18","balance":53778498}
+14:54:07.024 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/win
+14:54:07.025 INFO  runner - Test "/win (round 7)" execution finished
+14:54:07.025 INFO  runner - Test "/win (round 8 zero win)" execution started
+14:54:07.026 INFO  request logger - --> POST https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/win
+14:54:07.026 INFO  request logger - Accept-Encoding: gzip
+14:54:07.026 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:54:07.026 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:54:07.026 INFO  request logger - Content-Type: application/x-www-form-urlencoded
+14:54:07.026 INFO  request logger - Content-Length: 291
+14:54:07.026 INFO  request logger - player=869DF4608D784DA6AA2F76D297F2D9E4&game=endorphina_TheEmirate%40ENDORPHINA&currency=USD&betSessionId=d1fe901b577f459abc0b2298a1f9f1dd&betTransactionId=1788360795361&amount=0&gameId=8&date=1788360847026&token=d1fe901b577f459abc0b2298a1f9f1dd&sign=87dcda7931e5fe3178d8f4b2da57f2ed0e20078b
+14:54:07.026 INFO  request logger - --> END POST
+14:54:08.125 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/win
+14:54:08.126 INFO  request logger - Date: Wed, 02 Sep 2026 14:54:08 GMT
+14:54:08.126 INFO  request logger - Content-Type: application/json
+14:54:08.126 INFO  request logger - Content-Length: 73
+14:54:08.126 INFO  request logger - Connection: keep-alive
+14:54:08.126 INFO  request logger - CF-Ray: a34d591deaf5cd36-SJC
+14:54:08.126 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:54:08.126 INFO  request logger - Access-Control-Allow-Origin: *
+14:54:08.126 INFO  request logger - Content-Encoding: gzip
+14:54:08.126 INFO  request logger - Server: cloudflare
+14:54:08.126 INFO  request logger - Vary: Accept-Encoding
+14:54:08.126 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:54:08.126 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:54:08.126 INFO  request logger - endpoint-load-metrics: application_utilization:14,named_metrics.queue_depth:14
+14:54:08.126 INFO  request logger - sb-gateway-version: 1
+14:54:08.126 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:54:08.126 INFO  request logger - sb-request-id: 01a0629c-eeb8-7518-b42a-fe6817c9b791
+14:54:08.126 INFO  request logger - x-deno-execution-id: 6dd05122-7d34-413a-87c1-40b99a6c48af
+14:54:08.126 INFO  request logger - x-sb-edge-region: us-west-1
+14:54:08.126 INFO  request logger - x-served-by: supabase-edge-runtime
+14:54:08.126 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:54:08.126 INFO  request logger - Set-Cookie: __cf_bm=oMvGtRTdhPTo9N2HVABWEQ2TVa4xL5smrVgxjjb7Kiw-1788360847.0283535-1.0.1.1-x__JWufsPNLoBoXXp.miSdJDJJXdXO7Q8M5pHguTwnldr.cIVVBLXmmPzABUrqK4Pn6llQV3mz.UNEOibh5cKp6pWvBjkffLUN9Gw1SK920qHlkTcD0gCD3mM_9fCPKF; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:24:08 GMT
+14:54:08.126 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:54:08.126 INFO  request logger - {"transactionId":"Z1788360847875","balance":53778498}
+14:54:08.126 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/win
+14:54:08.127 INFO  runner - Test "/win (round 8 zero win)" execution finished
+14:54:08.128 INFO  runner - Test "/balance (round 8)" execution started
+14:54:08.128 INFO  request logger - --> GET https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:54:08.128 INFO  request logger - Accept-Encoding: gzip
+14:54:08.128 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:54:08.128 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:54:08.129 INFO  request logger - --> END GET
+14:54:08.841 INFO  request logger - <-- 200 OK https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:54:08.842 INFO  request logger - Date: Wed, 02 Sep 2026 14:54:08 GMT
+14:54:08.842 INFO  request logger - Content-Type: application/json
+14:54:08.842 INFO  request logger - Transfer-Encoding: chunked
+14:54:08.842 INFO  request logger - Connection: keep-alive
+14:54:08.842 INFO  request logger - CF-Ray: a34d5924c9aecd36-SJC
+14:54:08.842 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:54:08.842 INFO  request logger - Access-Control-Allow-Origin: *
+14:54:08.842 INFO  request logger - Content-Encoding: gzip
+14:54:08.842 INFO  request logger - Server: cloudflare
+14:54:08.842 INFO  request logger - Vary: Accept-Encoding
+14:54:08.842 INFO  request logger - X-Content-Type-Options: nosniff
+14:54:08.842 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:54:08.842 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:54:08.842 INFO  request logger - endpoint-load-metrics: application_utilization:15,named_metrics.queue_depth:15
+14:54:08.842 INFO  request logger - sb-gateway-version: 1
+14:54:08.842 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:54:08.842 INFO  request logger - sb-request-id: 01a0629c-f309-7f42-bc75-c9c53f523ec0
+14:54:08.842 INFO  request logger - x-deno-execution-id: d876b80a-13b7-4c1f-8eb6-0adf1250e75a
+14:54:08.842 INFO  request logger - x-sb-edge-region: us-west-1
+14:54:08.842 INFO  request logger - x-served-by: supabase-edge-runtime
+14:54:08.842 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:54:08.842 INFO  request logger - Set-Cookie: __cf_bm=_6Ndd08hL2KIQ4peVW_p2c3YNsXeUKfFCv_RU2BwRY8-1788360848.130627-1.0.1.1-WnSK7t368tGtIUURfQ1zyDun0BNIDZePt3OgvAXIdW7Rh9FPrJk4bJLhtJnOxgooYDNwYS5EXK9s5l1pWn2BySZlvtdUkXez.IMTtOS9.xmwV62gPwdAKgF.fOEuB2fG; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:24:08 GMT
+14:54:08.842 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:54:08.842 INFO  request logger - {"balance":53778498}
+14:54:08.843 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/balance?token=d1fe901b577f459abc0b2298a1f9f1dd&player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate@ENDORPHINA&sign=96451fc42924fef10b4c4417dc7ec3ac100ff99a
+14:54:08.844 INFO  runner - Test "/balance (round 8)" execution finished
+14:54:08.844 INFO  runner - Test "/bet (round 9 all money)" execution started
+14:54:08.845 INFO  request logger - --> POST https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:54:08.845 INFO  request logger - Accept-Encoding: gzip
+14:54:08.845 INFO  request logger - User-Agent: Jetty/9.4.49.v20220914
+14:54:08.845 INFO  request logger - Host: ovyrljtgviabkamomjso.supabase.co
+14:54:08.845 INFO  request logger - Content-Type: application/x-www-form-urlencoded
+14:54:08.845 INFO  request logger - Content-Length: 238
+14:54:08.845 INFO  request logger - player=869DF4608D784DA6AA2F76D297F2D9E4&currency=USD&game=endorphina_TheEmirate%40ENDORPHINA&id=1788360795362&amount=53778498&gameId=9&date=1788360848844&token=d1fe901b577f459abc0b2298a1f9f1dd&sign=fefcedc4b37f664cafa927ab1eb178bca80c6957
+14:54:08.845 INFO  request logger - --> END POST
+14:54:11.316 INFO  request logger - <-- 402 Payment Required https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:54:11.316 INFO  request logger - Date: Wed, 02 Sep 2026 14:54:11 GMT
+14:54:11.316 INFO  request logger - Content-Type: application/json
+14:54:11.316 INFO  request logger - Content-Length: 89
+14:54:11.316 INFO  request logger - Connection: keep-alive
+14:54:11.316 INFO  request logger - CF-Ray: a34d5929491dcd36-SJC
+14:54:11.316 INFO  request logger - CF-Cache-Status: DYNAMIC
+14:54:11.316 INFO  request logger - Access-Control-Allow-Origin: *
+14:54:11.316 INFO  request logger - Content-Encoding: gzip
+14:54:11.316 INFO  request logger - Server: cloudflare
+14:54:11.316 INFO  request logger - Vary: Accept-Encoding
+14:54:11.316 INFO  request logger - access-control-allow-headers: authorization, x-client-info, apikey, content-type
+14:54:11.316 INFO  request logger - access-control-allow-methods: POST, GET, OPTIONS
+14:54:11.316 INFO  request logger - endpoint-load-metrics: application_utilization:14,named_metrics.queue_depth:14
+14:54:11.316 INFO  request logger - sb-gateway-version: 1
+14:54:11.316 INFO  request logger - sb-project-ref: ovyrljtgviabkamomjso
+14:54:11.316 INFO  request logger - sb-request-id: 01a0629c-f5d4-7869-b051-a6d84f0fcb1b
+14:54:11.316 INFO  request logger - x-deno-execution-id: fc817eab-8f3f-460f-8eff-69a4eb2b4a88
+14:54:11.316 INFO  request logger - x-sb-edge-region: us-west-1
+14:54:11.316 INFO  request logger - x-served-by: supabase-edge-runtime
+14:54:11.316 INFO  request logger - Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+14:54:11.316 INFO  request logger - Set-Cookie: __cf_bm=4Kl9XyxzUSw9BC2GMn4Aa8COh3La9pjI7l0ciTFreXg-1788360848.8475583-1.0.1.1-GbRE7NXuIA.Se9pvi1rj6KLdNSDcwzka1HuxdurpDI7ExP36PNEwGUcwTKLEGHvZKufE5vM0gzZARIIM0x9.JPUwYl2wMCSYI1RT8bBsWwM_fI7FTIt9oa.ZwHb8Aoet; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Wed, 02 Sep 2026 15:24:11 GMT
+14:54:11.316 INFO  request logger - alt-svc: h3=":443"; ma=86400
+14:54:11.317 INFO  request logger - {"code":"INSUFFICIENT_FUNDS","message":"Player has insufficient funds"}
+14:54:11.317 INFO  request logger - <-- END https://ovyrljtgviabkamomjso.supabase.co/functions/v1/endorphina/bet
+14:54:11.319 INFO  runner - Test "/bet (round 9 all money)" execution finished
